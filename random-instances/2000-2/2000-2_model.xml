@@ -1,0 +1,5389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="A1">
+				<feature mandatory="true" name="C2"/>
+				<or abstract="true" name="A3">
+					<feature mandatory="true" name="C15"/>
+					<feature mandatory="true" name="C16"/>
+					<and abstract="true" mandatory="true" name="A17">
+						<and abstract="true" mandatory="true" name="A25">
+							<feature mandatory="true" name="C633"/>
+							<and abstract="true" mandatory="true" name="A634">
+								<feature mandatory="true" name="C1462"/>
+								<feature mandatory="true" name="C1463"/>
+								<feature name="C1464"/>
+								<feature mandatory="true" name="C1465"/>
+								<feature mandatory="true" name="C1466"/>
+								<feature mandatory="true" name="C1467"/>
+							</and>
+							<feature mandatory="true" name="C635"/>
+							<feature mandatory="true" name="C636"/>
+							<and abstract="true" name="A637">
+								<feature mandatory="true" name="C915"/>
+								<feature name="C916"/>
+								<alt abstract="true" name="A917">
+									<feature mandatory="true" name="C1060"/>
+								</alt>
+								<feature name="C918"/>
+								<or abstract="true" name="A919">
+									<feature mandatory="true" name="C1269"/>
+									<feature mandatory="true" name="C1270"/>
+									<feature mandatory="true" name="C1271"/>
+								</or>
+								<feature name="C920"/>
+								<feature mandatory="true" name="C921"/>
+								<feature name="C922"/>
+							</and>
+							<feature mandatory="true" name="C638"/>
+							<feature name="C639"/>
+							<feature mandatory="true" name="C640"/>
+							<feature name="C641"/>
+						</and>
+						<alt abstract="true" name="A26">
+							<feature mandatory="true" name="C1814"/>
+						</alt>
+						<feature name="C27"/>
+						<feature mandatory="true" name="C28"/>
+						<feature mandatory="true" name="C29"/>
+						<feature name="C30"/>
+						<and abstract="true" mandatory="true" name="A31">
+							<and abstract="true" mandatory="true" name="A460">
+								<feature mandatory="true" name="C1422"/>
+								<feature name="C1423"/>
+								<feature name="C1424"/>
+								<feature mandatory="true" name="C1425"/>
+								<feature name="C1426"/>
+								<feature mandatory="true" name="C1427"/>
+								<feature name="C1428"/>
+							</and>
+							<feature name="C461"/>
+							<or abstract="true" name="A462">
+								<feature mandatory="true" name="C476"/>
+							</or>
+							<feature mandatory="true" name="C463"/>
+							<feature name="C464"/>
+							<feature name="C465"/>
+							<feature mandatory="true" name="C466"/>
+							<feature name="C467"/>
+							<alt abstract="true" mandatory="true" name="A468">
+								<feature mandatory="true" name="C768"/>
+								<and abstract="true" mandatory="true" name="A769">
+									<feature mandatory="true" name="C1778"/>
+									<feature mandatory="true" name="C1779"/>
+									<feature mandatory="true" name="C1780"/>
+									<feature name="C1781"/>
+									<feature mandatory="true" name="C1782"/>
+									<feature mandatory="true" name="C1783"/>
+									<feature mandatory="true" name="C1784"/>
+									<feature mandatory="true" name="C1785"/>
+									<feature mandatory="true" name="C1786"/>
+									<feature name="C1787"/>
+								</and>
+								<feature mandatory="true" name="C770"/>
+								<feature mandatory="true" name="C771"/>
+								<feature mandatory="true" name="C772"/>
+							</alt>
+							<feature mandatory="true" name="C469"/>
+						</and>
+					</and>
+					<alt abstract="true" mandatory="true" name="A18">
+						<feature mandatory="true" name="C150"/>
+						<feature mandatory="true" name="C151"/>
+						<and abstract="true" mandatory="true" name="A152">
+							<feature mandatory="true" name="C502"/>
+							<and abstract="true" name="A503">
+								<feature mandatory="true" name="C527"/>
+								<feature mandatory="true" name="C528"/>
+								<and abstract="true" mandatory="true" name="A529">
+									<feature mandatory="true" name="C854"/>
+									<feature name="C855"/>
+									<and abstract="true" name="A856">
+										<feature mandatory="true" name="C1307"/>
+										<feature mandatory="true" name="C1308"/>
+										<feature name="C1309"/>
+										<feature name="C1310"/>
+										<feature mandatory="true" name="C1311"/>
+										<feature name="C1312"/>
+									</and>
+									<feature name="C857"/>
+								</and>
+								<feature mandatory="true" name="C530"/>
+							</and>
+							<feature mandatory="true" name="C504"/>
+							<feature name="C505"/>
+							<and abstract="true" name="A506">
+								<and abstract="true" mandatory="true" name="A653">
+									<feature mandatory="true" name="C1880"/>
+									<feature mandatory="true" name="C1881"/>
+								</and>
+							</and>
+						</and>
+						<alt abstract="true" mandatory="true" name="A153">
+							<feature mandatory="true" name="C1740"/>
+							<feature mandatory="true" name="C1741"/>
+							<feature mandatory="true" name="C1742"/>
+							<feature mandatory="true" name="C1743"/>
+							<feature mandatory="true" name="C1744"/>
+							<feature mandatory="true" name="C1745"/>
+							<feature mandatory="true" name="C1746"/>
+							<feature mandatory="true" name="C1747"/>
+						</alt>
+						<feature mandatory="true" name="C154"/>
+						<feature mandatory="true" name="C155"/>
+						<alt abstract="true" mandatory="true" name="A156">
+							<feature mandatory="true" name="C413"/>
+							<alt abstract="true" mandatory="true" name="A414">
+								<feature mandatory="true" name="C1460"/>
+								<feature mandatory="true" name="C1461"/>
+							</alt>
+							<feature mandatory="true" name="C415"/>
+							<feature mandatory="true" name="C416"/>
+						</alt>
+						<or abstract="true" mandatory="true" name="A157">
+							<feature mandatory="true" name="C1899"/>
+							<feature mandatory="true" name="C1900"/>
+							<feature mandatory="true" name="C1901"/>
+							<feature mandatory="true" name="C1902"/>
+							<feature mandatory="true" name="C1903"/>
+						</or>
+						<alt abstract="true" mandatory="true" name="A158">
+							<and abstract="true" mandatory="true" name="A305">
+								<feature mandatory="true" name="C443"/>
+								<or abstract="true" name="A444">
+									<feature mandatory="true" name="C748"/>
+									<feature mandatory="true" name="C749"/>
+									<feature mandatory="true" name="C750"/>
+									<feature mandatory="true" name="C751"/>
+									<feature mandatory="true" name="C752"/>
+									<feature mandatory="true" name="C753"/>
+									<feature mandatory="true" name="C754"/>
+								</or>
+								<or abstract="true" name="A445">
+									<feature mandatory="true" name="C654"/>
+									<feature mandatory="true" name="C655"/>
+									<feature mandatory="true" name="C656"/>
+									<feature mandatory="true" name="C657"/>
+									<feature mandatory="true" name="C658"/>
+									<alt abstract="true" mandatory="true" name="A659">
+										<feature mandatory="true" name="C733"/>
+										<feature mandatory="true" name="C734"/>
+									</alt>
+									<feature mandatory="true" name="C660"/>
+									<feature mandatory="true" name="C661"/>
+									<feature mandatory="true" name="C662"/>
+									<feature mandatory="true" name="C663"/>
+								</or>
+							</and>
+							<feature mandatory="true" name="C306"/>
+						</alt>
+						<feature mandatory="true" name="C159"/>
+					</alt>
+					<feature mandatory="true" name="C19"/>
+					<or abstract="true" mandatory="true" name="A20">
+						<and abstract="true" mandatory="true" name="A141">
+							<feature mandatory="true" name="C1073"/>
+							<feature mandatory="true" name="C1074"/>
+						</and>
+						<feature mandatory="true" name="C142"/>
+						<feature mandatory="true" name="C143"/>
+						<or abstract="true" mandatory="true" name="A144">
+							<alt abstract="true" mandatory="true" name="A172">
+								<feature mandatory="true" name="C268"/>
+								<and abstract="true" mandatory="true" name="A269">
+									<feature mandatory="true" name="C844"/>
+									<feature name="C845"/>
+									<feature mandatory="true" name="C846"/>
+									<feature name="C847"/>
+									<feature name="C848"/>
+									<and abstract="true" name="A849">
+										<feature mandatory="true" name="C1865"/>
+										<feature name="C1866"/>
+										<feature name="C1867"/>
+										<feature mandatory="true" name="C1868"/>
+										<feature mandatory="true" name="C1869"/>
+										<feature name="C1870"/>
+										<feature mandatory="true" name="C1871"/>
+										<feature mandatory="true" name="C1872"/>
+									</and>
+									<feature mandatory="true" name="C850"/>
+									<feature name="C851"/>
+									<feature name="C852"/>
+									<feature name="C853"/>
+								</and>
+								<feature mandatory="true" name="C270"/>
+								<alt abstract="true" mandatory="true" name="A271">
+									<feature mandatory="true" name="C694"/>
+									<feature mandatory="true" name="C695"/>
+									<feature mandatory="true" name="C696"/>
+									<feature mandatory="true" name="C697"/>
+									<feature mandatory="true" name="C698"/>
+									<feature mandatory="true" name="C699"/>
+									<or abstract="true" mandatory="true" name="A700">
+										<feature mandatory="true" name="C1955"/>
+									</or>
+									<feature mandatory="true" name="C701"/>
+									<alt abstract="true" mandatory="true" name="A702">
+										<feature mandatory="true" name="C1075"/>
+										<and abstract="true" mandatory="true" name="A1076">
+											<and abstract="true" mandatory="true" name="A1392">
+												<feature mandatory="true" name="C1963"/>
+												<feature name="C1964"/>
+												<feature name="C1965"/>
+												<feature mandatory="true" name="C1966"/>
+												<feature name="C1967"/>
+												<feature name="C1968"/>
+											</and>
+											<feature mandatory="true" name="C1393"/>
+											<feature name="C1394"/>
+											<feature mandatory="true" name="C1395"/>
+											<feature mandatory="true" name="C1396"/>
+											<feature name="C1397"/>
+											<feature mandatory="true" name="C1398"/>
+										</and>
+										<feature mandatory="true" name="C1077"/>
+										<alt abstract="true" mandatory="true" name="A1078">
+											<feature mandatory="true" name="C1345"/>
+											<feature mandatory="true" name="C1346"/>
+										</alt>
+										<feature mandatory="true" name="C1079"/>
+										<feature mandatory="true" name="C1080"/>
+										<feature mandatory="true" name="C1081"/>
+										<feature mandatory="true" name="C1082"/>
+									</alt>
+									<feature mandatory="true" name="C703"/>
+								</alt>
+								<alt abstract="true" mandatory="true" name="A272">
+									<feature mandatory="true" name="C1696"/>
+									<feature mandatory="true" name="C1697"/>
+									<feature mandatory="true" name="C1698"/>
+									<feature mandatory="true" name="C1699"/>
+									<feature mandatory="true" name="C1700"/>
+									<feature mandatory="true" name="C1701"/>
+									<feature mandatory="true" name="C1702"/>
+									<feature mandatory="true" name="C1703"/>
+									<feature mandatory="true" name="C1704"/>
+								</alt>
+								<feature mandatory="true" name="C273"/>
+								<and abstract="true" mandatory="true" name="A274">
+									<alt abstract="true" mandatory="true" name="A341">
+										<and abstract="true" mandatory="true" name="A730">
+											<feature mandatory="true" name="C1184"/>
+											<feature mandatory="true" name="C1185"/>
+											<or abstract="true" mandatory="true" name="A1186">
+												<feature mandatory="true" name="C1196"/>
+												<feature mandatory="true" name="C1197"/>
+												<feature mandatory="true" name="C1198"/>
+												<feature mandatory="true" name="C1199"/>
+												<alt abstract="true" mandatory="true" name="A1200">
+													<feature mandatory="true" name="C1877"/>
+													<feature mandatory="true" name="C1878"/>
+													<feature mandatory="true" name="C1879"/>
+												</alt>
+												<feature mandatory="true" name="C1201"/>
+												<feature mandatory="true" name="C1202"/>
+												<feature mandatory="true" name="C1203"/>
+												<feature mandatory="true" name="C1204"/>
+											</or>
+											<feature mandatory="true" name="C1187"/>
+											<feature mandatory="true" name="C1188"/>
+											<feature mandatory="true" name="C1189"/>
+											<alt abstract="true" name="A1190">
+												<alt abstract="true" mandatory="true" name="A1805">
+													<feature mandatory="true" name="C1852"/>
+													<and abstract="true" mandatory="true" name="A1853">
+														<feature mandatory="true" name="C1925"/>
+														<feature mandatory="true" name="C1926"/>
+													</and>
+													<feature mandatory="true" name="C1854"/>
+													<feature mandatory="true" name="C1855"/>
+													<feature mandatory="true" name="C1856"/>
+													<feature mandatory="true" name="C1857"/>
+													<feature mandatory="true" name="C1858"/>
+													<feature mandatory="true" name="C1859"/>
+												</alt>
+											</alt>
+										</and>
+									</alt>
+								</and>
+								<alt abstract="true" mandatory="true" name="A275">
+									<feature mandatory="true" name="C477"/>
+									<alt abstract="true" mandatory="true" name="A478">
+										<feature mandatory="true" name="C962"/>
+									</alt>
+									<feature mandatory="true" name="C479"/>
+								</alt>
+							</alt>
+							<and abstract="true" mandatory="true" name="A173">
+								<feature mandatory="true" name="C334"/>
+								<feature name="C335"/>
+								<or abstract="true" name="A336">
+									<alt abstract="true" mandatory="true" name="A874">
+										<feature mandatory="true" name="C1404"/>
+									</alt>
+									<feature mandatory="true" name="C875"/>
+									<feature mandatory="true" name="C876"/>
+									<feature mandatory="true" name="C877"/>
+									<feature mandatory="true" name="C878"/>
+									<feature mandatory="true" name="C879"/>
+									<feature mandatory="true" name="C880"/>
+									<feature mandatory="true" name="C881"/>
+									<feature mandatory="true" name="C882"/>
+								</or>
+								<alt abstract="true" mandatory="true" name="A337">
+									<feature mandatory="true" name="C1128"/>
+									<feature mandatory="true" name="C1129"/>
+									<and abstract="true" mandatory="true" name="A1130">
+										<feature mandatory="true" name="C1804"/>
+									</and>
+									<alt abstract="true" mandatory="true" name="A1131">
+										<feature mandatory="true" name="C1455"/>
+										<feature mandatory="true" name="C1456"/>
+										<feature mandatory="true" name="C1457"/>
+										<feature mandatory="true" name="C1458"/>
+										<feature mandatory="true" name="C1459"/>
+									</alt>
+									<feature mandatory="true" name="C1132"/>
+								</alt>
+								<feature mandatory="true" name="C338"/>
+								<feature name="C339"/>
+								<feature name="C340"/>
+							</and>
+							<feature mandatory="true" name="C174"/>
+							<or abstract="true" mandatory="true" name="A175">
+								<feature mandatory="true" name="C811"/>
+								<feature mandatory="true" name="C812"/>
+								<feature mandatory="true" name="C813"/>
+								<and abstract="true" mandatory="true" name="A814">
+									<feature mandatory="true" name="C1480"/>
+									<feature name="C1481"/>
+									<feature mandatory="true" name="C1482"/>
+									<feature mandatory="true" name="C1483"/>
+									<feature name="C1484"/>
+								</and>
+								<feature mandatory="true" name="C815"/>
+								<feature mandatory="true" name="C816"/>
+								<and abstract="true" mandatory="true" name="A817">
+									<feature mandatory="true" name="C883"/>
+									<and abstract="true" mandatory="true" name="A884">
+										<feature mandatory="true" name="C1143"/>
+										<feature mandatory="true" name="C1144"/>
+										<feature mandatory="true" name="C1145"/>
+										<feature mandatory="true" name="C1146"/>
+										<feature mandatory="true" name="C1147"/>
+										<feature name="C1148"/>
+										<feature mandatory="true" name="C1149"/>
+										<feature mandatory="true" name="C1150"/>
+										<and abstract="true" mandatory="true" name="A1151">
+											<feature mandatory="true" name="C1280"/>
+											<feature mandatory="true" name="C1281"/>
+											<feature mandatory="true" name="C1282"/>
+											<feature mandatory="true" name="C1283"/>
+											<feature mandatory="true" name="C1284"/>
+											<feature name="C1285"/>
+										</and>
+										<feature mandatory="true" name="C1152"/>
+									</and>
+									<feature mandatory="true" name="C885"/>
+									<and abstract="true" mandatory="true" name="A886">
+										<feature mandatory="true" name="C1153"/>
+										<feature name="C1154"/>
+										<feature mandatory="true" name="C1155"/>
+										<feature name="C1156"/>
+										<alt abstract="true" name="A1157">
+											<feature mandatory="true" name="C1935"/>
+											<feature mandatory="true" name="C1936"/>
+											<feature mandatory="true" name="C1937"/>
+											<feature mandatory="true" name="C1938"/>
+											<feature mandatory="true" name="C1939"/>
+										</alt>
+										<feature mandatory="true" name="C1158"/>
+										<alt abstract="true" name="A1159">
+											<feature mandatory="true" name="C1540"/>
+											<feature mandatory="true" name="C1541"/>
+											<feature mandatory="true" name="C1542"/>
+											<feature mandatory="true" name="C1543"/>
+											<feature mandatory="true" name="C1544"/>
+											<feature mandatory="true" name="C1545"/>
+											<feature mandatory="true" name="C1546"/>
+											<feature mandatory="true" name="C1547"/>
+											<feature mandatory="true" name="C1548"/>
+											<feature mandatory="true" name="C1549"/>
+										</alt>
+									</and>
+									<or abstract="true" name="A887">
+										<feature mandatory="true" name="C1399"/>
+									</or>
+								</and>
+								<feature mandatory="true" name="C818"/>
+								<feature mandatory="true" name="C819"/>
+							</or>
+							<feature mandatory="true" name="C176"/>
+							<feature mandatory="true" name="C177"/>
+							<feature mandatory="true" name="C178"/>
+							<and abstract="true" mandatory="true" name="A179">
+								<feature mandatory="true" name="C234"/>
+								<and abstract="true" mandatory="true" name="A235">
+									<feature mandatory="true" name="C1873"/>
+									<feature name="C1874"/>
+									<feature mandatory="true" name="C1875"/>
+									<feature name="C1876"/>
+								</and>
+								<feature mandatory="true" name="C236"/>
+								<feature mandatory="true" name="C237"/>
+								<feature mandatory="true" name="C238"/>
+								<feature mandatory="true" name="C239"/>
+								<feature name="C240"/>
+								<alt abstract="true" mandatory="true" name="A241">
+									<or abstract="true" mandatory="true" name="A735">
+										<feature mandatory="true" name="C1571"/>
+									</or>
+									<feature mandatory="true" name="C736"/>
+									<feature mandatory="true" name="C737"/>
+									<or abstract="true" mandatory="true" name="A738">
+										<feature mandatory="true" name="C1049"/>
+										<feature mandatory="true" name="C1050"/>
+										<feature mandatory="true" name="C1051"/>
+										<feature mandatory="true" name="C1052"/>
+									</or>
+									<feature mandatory="true" name="C739"/>
+									<feature mandatory="true" name="C740"/>
+								</alt>
+								<feature name="C242"/>
+							</and>
+							<feature mandatory="true" name="C180"/>
+						</or>
+						<alt abstract="true" mandatory="true" name="A145">
+							<feature mandatory="true" name="C991"/>
+							<feature mandatory="true" name="C992"/>
+							<feature mandatory="true" name="C993"/>
+							<feature mandatory="true" name="C994"/>
+							<or abstract="true" mandatory="true" name="A995">
+								<feature mandatory="true" name="C1065"/>
+								<and abstract="true" mandatory="true" name="A1066">
+									<or abstract="true" mandatory="true" name="A1707">
+										<feature mandatory="true" name="C1860"/>
+										<feature mandatory="true" name="C1861"/>
+										<feature mandatory="true" name="C1862"/>
+										<feature mandatory="true" name="C1863"/>
+										<feature mandatory="true" name="C1864"/>
+									</or>
+									<feature mandatory="true" name="C1708"/>
+									<feature mandatory="true" name="C1709"/>
+									<feature name="C1710"/>
+									<feature name="C1711"/>
+									<feature name="C1712"/>
+									<feature name="C1713"/>
+									<feature mandatory="true" name="C1714"/>
+									<feature name="C1715"/>
+									<feature mandatory="true" name="C1716"/>
+								</and>
+								<feature mandatory="true" name="C1067"/>
+								<feature mandatory="true" name="C1068"/>
+								<feature mandatory="true" name="C1069"/>
+								<feature mandatory="true" name="C1070"/>
+								<feature mandatory="true" name="C1071"/>
+								<feature mandatory="true" name="C1072"/>
+							</or>
+							<feature mandatory="true" name="C996"/>
+							<feature mandatory="true" name="C997"/>
+							<and abstract="true" mandatory="true" name="A998">
+								<feature mandatory="true" name="C1362"/>
+								<feature name="C1363"/>
+								<feature name="C1364"/>
+								<or abstract="true" name="A1365">
+									<feature mandatory="true" name="C1442"/>
+									<and abstract="true" mandatory="true" name="A1443">
+										<feature mandatory="true" name="C1819"/>
+										<feature name="C1820"/>
+										<feature mandatory="true" name="C1821"/>
+										<feature name="C1822"/>
+										<feature mandatory="true" name="C1823"/>
+										<feature name="C1824"/>
+										<feature name="C1825"/>
+									</and>
+								</or>
+								<feature mandatory="true" name="C1366"/>
+								<or abstract="true" mandatory="true" name="A1367">
+									<feature mandatory="true" name="C1831"/>
+									<feature mandatory="true" name="C1832"/>
+									<feature mandatory="true" name="C1833"/>
+									<feature mandatory="true" name="C1834"/>
+									<feature mandatory="true" name="C1835"/>
+									<feature mandatory="true" name="C1836"/>
+									<feature mandatory="true" name="C1837"/>
+									<feature mandatory="true" name="C1838"/>
+									<feature mandatory="true" name="C1839"/>
+									<feature mandatory="true" name="C1840"/>
+								</or>
+								<feature mandatory="true" name="C1368"/>
+								<and abstract="true" mandatory="true" name="A1369">
+									<feature mandatory="true" name="C1904"/>
+									<feature mandatory="true" name="C1905"/>
+									<feature name="C1906"/>
+									<feature name="C1907"/>
+									<feature mandatory="true" name="C1908"/>
+								</and>
+							</and>
+							<feature mandatory="true" name="C999"/>
+						</alt>
+						<alt abstract="true" mandatory="true" name="A146">
+							<feature mandatory="true" name="C222"/>
+							<and abstract="true" mandatory="true" name="A223">
+								<or abstract="true" mandatory="true" name="A232">
+									<feature mandatory="true" name="C688"/>
+									<feature mandatory="true" name="C689"/>
+									<feature mandatory="true" name="C690"/>
+									<feature mandatory="true" name="C691"/>
+									<and abstract="true" mandatory="true" name="A692">
+										<feature mandatory="true" name="C858"/>
+										<or abstract="true" mandatory="true" name="A859">
+											<feature mandatory="true" name="C1114"/>
+											<alt abstract="true" mandatory="true" name="A1115">
+												<feature mandatory="true" name="C1429"/>
+												<feature mandatory="true" name="C1430"/>
+												<feature mandatory="true" name="C1431"/>
+												<feature mandatory="true" name="C1432"/>
+												<feature mandatory="true" name="C1433"/>
+											</alt>
+											<feature mandatory="true" name="C1116"/>
+											<and abstract="true" mandatory="true" name="A1117">
+												<feature mandatory="true" name="C1249"/>
+												<feature name="C1250"/>
+												<feature mandatory="true" name="C1251"/>
+												<feature name="C1252"/>
+											</and>
+											<alt abstract="true" mandatory="true" name="A1118">
+												<feature mandatory="true" name="C1969"/>
+												<feature mandatory="true" name="C1970"/>
+												<feature mandatory="true" name="C1971"/>
+												<feature mandatory="true" name="C1972"/>
+												<feature mandatory="true" name="C1973"/>
+												<feature mandatory="true" name="C1974"/>
+											</alt>
+											<feature mandatory="true" name="C1119"/>
+											<feature mandatory="true" name="C1120"/>
+											<feature mandatory="true" name="C1121"/>
+											<feature mandatory="true" name="C1122"/>
+											<feature mandatory="true" name="C1123"/>
+										</or>
+										<feature mandatory="true" name="C860"/>
+										<feature mandatory="true" name="C861"/>
+										<feature name="C862"/>
+										<feature mandatory="true" name="C863"/>
+										<feature mandatory="true" name="C864"/>
+									</and>
+									<feature mandatory="true" name="C693"/>
+								</or>
+								<feature name="C233"/>
+							</and>
+							<feature mandatory="true" name="C224"/>
+							<and abstract="true" mandatory="true" name="A225">
+								<feature mandatory="true" name="C1680"/>
+								<feature name="C1681"/>
+								<feature mandatory="true" name="C1682"/>
+								<feature name="C1683"/>
+								<feature mandatory="true" name="C1684"/>
+								<feature mandatory="true" name="C1685"/>
+								<feature mandatory="true" name="C1686"/>
+								<feature name="C1687"/>
+							</and>
+							<alt abstract="true" mandatory="true" name="A226">
+								<feature mandatory="true" name="C1216"/>
+								<feature mandatory="true" name="C1217"/>
+								<feature mandatory="true" name="C1218"/>
+								<feature mandatory="true" name="C1219"/>
+								<feature mandatory="true" name="C1220"/>
+								<feature mandatory="true" name="C1221"/>
+								<feature mandatory="true" name="C1222"/>
+								<feature mandatory="true" name="C1223"/>
+								<feature mandatory="true" name="C1224"/>
+								<feature mandatory="true" name="C1225"/>
+							</alt>
+							<feature mandatory="true" name="C227"/>
+							<feature mandatory="true" name="C228"/>
+						</alt>
+						<alt abstract="true" mandatory="true" name="A147">
+							<or abstract="true" mandatory="true" name="A200">
+								<feature mandatory="true" name="C300"/>
+								<or abstract="true" mandatory="true" name="A301">
+									<feature mandatory="true" name="C1099"/>
+									<feature mandatory="true" name="C1100"/>
+									<feature mandatory="true" name="C1101"/>
+									<feature mandatory="true" name="C1102"/>
+									<feature mandatory="true" name="C1103"/>
+									<feature mandatory="true" name="C1104"/>
+									<feature mandatory="true" name="C1105"/>
+								</or>
+								<feature mandatory="true" name="C302"/>
+								<feature mandatory="true" name="C303"/>
+								<and abstract="true" mandatory="true" name="A304">
+									<feature mandatory="true" name="C427"/>
+									<and abstract="true" name="A428">
+										<feature mandatory="true" name="C652"/>
+									</and>
+									<feature name="C429"/>
+									<feature mandatory="true" name="C430"/>
+									<feature mandatory="true" name="C431"/>
+									<feature mandatory="true" name="C432"/>
+									<feature mandatory="true" name="C433"/>
+									<feature name="C434"/>
+									<feature mandatory="true" name="C435"/>
+								</and>
+							</or>
+							<feature mandatory="true" name="C201"/>
+							<or abstract="true" mandatory="true" name="A202">
+								<feature mandatory="true" name="C1012"/>
+								<and abstract="true" mandatory="true" name="A1013">
+									<feature mandatory="true" name="C1667"/>
+								</and>
+								<feature mandatory="true" name="C1014"/>
+								<feature mandatory="true" name="C1015"/>
+								<feature mandatory="true" name="C1016"/>
+								<feature mandatory="true" name="C1017"/>
+								<feature mandatory="true" name="C1018"/>
+								<feature mandatory="true" name="C1019"/>
+								<feature mandatory="true" name="C1020"/>
+								<feature mandatory="true" name="C1021"/>
+							</or>
+							<feature mandatory="true" name="C203"/>
+							<feature mandatory="true" name="C204"/>
+							<feature mandatory="true" name="C205"/>
+						</alt>
+					</or>
+					<alt abstract="true" mandatory="true" name="A21">
+						<alt abstract="true" mandatory="true" name="A160">
+							<feature mandatory="true" name="C229"/>
+							<feature mandatory="true" name="C230"/>
+							<feature mandatory="true" name="C231"/>
+						</alt>
+						<feature mandatory="true" name="C161"/>
+						<feature mandatory="true" name="C162"/>
+					</alt>
+					<feature mandatory="true" name="C22"/>
+					<and abstract="true" mandatory="true" name="A23">
+						<feature mandatory="true" name="C553"/>
+						<and abstract="true" mandatory="true" name="A554">
+							<feature mandatory="true" name="C1588"/>
+							<feature name="C1589"/>
+							<or abstract="true" mandatory="true" name="A1590">
+								<feature mandatory="true" name="C1605"/>
+								<feature mandatory="true" name="C1606"/>
+								<feature mandatory="true" name="C1607"/>
+								<feature mandatory="true" name="C1608"/>
+								<feature mandatory="true" name="C1609"/>
+							</or>
+							<feature name="C1591"/>
+							<feature name="C1592"/>
+							<feature mandatory="true" name="C1593"/>
+							<feature mandatory="true" name="C1594"/>
+							<feature name="C1595"/>
+							<feature name="C1596"/>
+							<feature name="C1597"/>
+						</and>
+						<alt abstract="true" mandatory="true" name="A555">
+							<feature mandatory="true" name="C1815"/>
+							<feature mandatory="true" name="C1816"/>
+							<feature mandatory="true" name="C1817"/>
+							<feature mandatory="true" name="C1818"/>
+						</alt>
+						<feature mandatory="true" name="C556"/>
+						<or abstract="true" mandatory="true" name="A557">
+							<feature mandatory="true" name="C594"/>
+							<and abstract="true" mandatory="true" name="A595">
+								<feature mandatory="true" name="C1499"/>
+								<feature mandatory="true" name="C1500"/>
+								<feature mandatory="true" name="C1501"/>
+							</and>
+							<feature mandatory="true" name="C596"/>
+							<feature mandatory="true" name="C597"/>
+							<feature mandatory="true" name="C598"/>
+							<and abstract="true" mandatory="true" name="A599">
+								<and abstract="true" mandatory="true" name="A741">
+									<feature mandatory="true" name="C1356"/>
+									<feature mandatory="true" name="C1357"/>
+									<feature name="C1358"/>
+									<feature name="C1359"/>
+									<feature name="C1360"/>
+									<feature mandatory="true" name="C1361"/>
+								</and>
+								<feature mandatory="true" name="C742"/>
+								<and abstract="true" name="A743">
+									<feature mandatory="true" name="C755"/>
+									<feature mandatory="true" name="C756"/>
+									<feature name="C757"/>
+								</and>
+								<feature mandatory="true" name="C744"/>
+								<feature name="C745"/>
+								<and abstract="true" mandatory="true" name="A746">
+									<feature mandatory="true" name="C1347"/>
+									<feature mandatory="true" name="C1348"/>
+									<feature mandatory="true" name="C1349"/>
+									<feature name="C1350"/>
+									<feature name="C1351"/>
+									<feature name="C1352"/>
+								</and>
+								<feature mandatory="true" name="C747"/>
+							</and>
+							<feature mandatory="true" name="C600"/>
+							<feature mandatory="true" name="C601"/>
+							<feature mandatory="true" name="C602"/>
+							<feature mandatory="true" name="C603"/>
+						</or>
+					</and>
+					<and abstract="true" mandatory="true" name="A24">
+						<or abstract="true" mandatory="true" name="A104">
+							<feature mandatory="true" name="C687"/>
+						</or>
+						<feature mandatory="true" name="C105"/>
+					</and>
+				</or>
+				<and abstract="true" name="A4">
+					<feature mandatory="true" name="C1096"/>
+					<feature name="C1097"/>
+					<feature mandatory="true" name="C1098"/>
+				</and>
+				<and abstract="true" name="A5">
+					<alt abstract="true" mandatory="true" name="A44">
+						<feature mandatory="true" name="C1412"/>
+						<feature mandatory="true" name="C1413"/>
+						<feature mandatory="true" name="C1414"/>
+						<feature mandatory="true" name="C1415"/>
+						<feature mandatory="true" name="C1416"/>
+						<feature mandatory="true" name="C1417"/>
+						<feature mandatory="true" name="C1418"/>
+						<feature mandatory="true" name="C1419"/>
+						<feature mandatory="true" name="C1420"/>
+						<feature mandatory="true" name="C1421"/>
+					</alt>
+					<feature name="C45"/>
+					<or abstract="true" name="A46">
+						<or abstract="true" mandatory="true" name="A106">
+							<and abstract="true" mandatory="true" name="A163">
+								<feature mandatory="true" name="C166"/>
+							</and>
+							<feature mandatory="true" name="C164"/>
+							<alt abstract="true" mandatory="true" name="A165">
+								<feature mandatory="true" name="C243"/>
+							</alt>
+						</or>
+						<or abstract="true" mandatory="true" name="A107">
+							<or abstract="true" mandatory="true" name="A397">
+								<feature mandatory="true" name="C972"/>
+								<feature mandatory="true" name="C973"/>
+								<feature mandatory="true" name="C974"/>
+								<feature mandatory="true" name="C975"/>
+							</or>
+							<feature mandatory="true" name="C398"/>
+							<feature mandatory="true" name="C399"/>
+							<and abstract="true" mandatory="true" name="A400">
+								<feature mandatory="true" name="C1846"/>
+								<feature mandatory="true" name="C1847"/>
+								<feature mandatory="true" name="C1848"/>
+								<feature name="C1849"/>
+								<feature mandatory="true" name="C1850"/>
+								<feature name="C1851"/>
+							</and>
+							<or abstract="true" mandatory="true" name="A401">
+								<feature mandatory="true" name="C1550"/>
+								<feature mandatory="true" name="C1551"/>
+								<feature mandatory="true" name="C1552"/>
+								<feature mandatory="true" name="C1553"/>
+								<feature mandatory="true" name="C1554"/>
+								<feature mandatory="true" name="C1555"/>
+								<and abstract="true" mandatory="true" name="A1556">
+									<feature mandatory="true" name="C1637"/>
+									<feature mandatory="true" name="C1638"/>
+									<feature mandatory="true" name="C1639"/>
+									<feature name="C1640"/>
+									<feature name="C1641"/>
+									<feature name="C1642"/>
+									<feature mandatory="true" name="C1643"/>
+									<feature name="C1644"/>
+									<alt abstract="true" name="A1645">
+										<feature mandatory="true" name="C1989"/>
+										<feature mandatory="true" name="C1990"/>
+										<feature mandatory="true" name="C1991"/>
+										<feature mandatory="true" name="C1992"/>
+										<feature mandatory="true" name="C1993"/>
+										<feature mandatory="true" name="C1994"/>
+										<feature mandatory="true" name="C1995"/>
+										<feature mandatory="true" name="C1996"/>
+										<feature mandatory="true" name="C1997"/>
+										<feature mandatory="true" name="C1998"/>
+									</alt>
+								</and>
+								<feature mandatory="true" name="C1557"/>
+								<feature mandatory="true" name="C1558"/>
+								<feature mandatory="true" name="C1559"/>
+							</or>
+							<feature mandatory="true" name="C402"/>
+							<feature mandatory="true" name="C403"/>
+							<feature mandatory="true" name="C404"/>
+							<feature mandatory="true" name="C405"/>
+							<feature mandatory="true" name="C406"/>
+						</or>
+						<feature mandatory="true" name="C108"/>
+						<feature mandatory="true" name="C109"/>
+						<feature mandatory="true" name="C110"/>
+						<and abstract="true" mandatory="true" name="A111">
+							<feature mandatory="true" name="C125"/>
+							<and abstract="true" name="A126">
+								<feature mandatory="true" name="C285"/>
+								<and abstract="true" mandatory="true" name="A286">
+									<or abstract="true" mandatory="true" name="A360">
+										<feature mandatory="true" name="C1623"/>
+										<feature mandatory="true" name="C1624"/>
+										<feature mandatory="true" name="C1625"/>
+										<feature mandatory="true" name="C1626"/>
+										<feature mandatory="true" name="C1627"/>
+										<feature mandatory="true" name="C1628"/>
+									</or>
+									<feature name="C361"/>
+									<or abstract="true" name="A362">
+										<feature mandatory="true" name="C378"/>
+										<feature mandatory="true" name="C379"/>
+										<feature mandatory="true" name="C380"/>
+										<feature mandatory="true" name="C381"/>
+										<feature mandatory="true" name="C382"/>
+										<or abstract="true" mandatory="true" name="A383">
+											<feature mandatory="true" name="C1560"/>
+											<feature mandatory="true" name="C1561"/>
+											<feature mandatory="true" name="C1562"/>
+											<feature mandatory="true" name="C1563"/>
+											<feature mandatory="true" name="C1564"/>
+										</or>
+										<and abstract="true" mandatory="true" name="A384">
+											<feature mandatory="true" name="C496"/>
+											<feature mandatory="true" name="C497"/>
+										</and>
+										<feature mandatory="true" name="C385"/>
+									</or>
+									<and abstract="true" mandatory="true" name="A363">
+										<feature mandatory="true" name="C1405"/>
+									</and>
+									<feature name="C364"/>
+									<feature mandatory="true" name="C365"/>
+									<feature name="C366"/>
+									<alt abstract="true" mandatory="true" name="A367">
+										<feature mandatory="true" name="C1676"/>
+										<feature mandatory="true" name="C1677"/>
+										<feature mandatory="true" name="C1678"/>
+										<feature mandatory="true" name="C1679"/>
+									</alt>
+									<feature name="C368"/>
+									<and abstract="true" mandatory="true" name="A369">
+										<feature mandatory="true" name="C450"/>
+										<feature mandatory="true" name="C451"/>
+										<feature mandatory="true" name="C452"/>
+									</and>
+								</and>
+								<feature name="C287"/>
+								<feature name="C288"/>
+								<and abstract="true" name="A289">
+									<and abstract="true" mandatory="true" name="A726">
+										<feature mandatory="true" name="C1320"/>
+										<feature mandatory="true" name="C1321"/>
+										<feature name="C1322"/>
+										<feature mandatory="true" name="C1323"/>
+										<feature name="C1324"/>
+										<feature mandatory="true" name="C1325"/>
+										<feature name="C1326"/>
+										<feature mandatory="true" name="C1327"/>
+										<or abstract="true" name="A1328">
+											<feature mandatory="true" name="C1999"/>
+											<feature mandatory="true" name="C2000"/>
+										</or>
+									</and>
+									<feature mandatory="true" name="C727"/>
+									<feature name="C728"/>
+									<feature mandatory="true" name="C729"/>
+								</and>
+								<feature mandatory="true" name="C290"/>
+								<feature mandatory="true" name="C291"/>
+								<feature name="C292"/>
+								<feature name="C293"/>
+								<feature mandatory="true" name="C294"/>
+							</and>
+							<alt abstract="true" mandatory="true" name="A127">
+								<feature mandatory="true" name="C604"/>
+								<and abstract="true" mandatory="true" name="A605">
+									<feature mandatory="true" name="C980"/>
+									<feature mandatory="true" name="C981"/>
+									<feature name="C982"/>
+									<feature name="C983"/>
+									<feature mandatory="true" name="C984"/>
+									<alt abstract="true" name="A985">
+										<feature mandatory="true" name="C1495"/>
+										<feature mandatory="true" name="C1496"/>
+									</alt>
+									<feature mandatory="true" name="C986"/>
+									<feature name="C987"/>
+									<feature mandatory="true" name="C988"/>
+									<feature mandatory="true" name="C989"/>
+								</and>
+								<alt abstract="true" mandatory="true" name="A606">
+									<feature mandatory="true" name="C1408"/>
+									<feature mandatory="true" name="C1409"/>
+									<feature mandatory="true" name="C1410"/>
+									<feature mandatory="true" name="C1411"/>
+								</alt>
+								<feature mandatory="true" name="C607"/>
+								<or abstract="true" mandatory="true" name="A608">
+									<feature mandatory="true" name="C620"/>
+									<feature mandatory="true" name="C621"/>
+									<feature mandatory="true" name="C622"/>
+									<or abstract="true" mandatory="true" name="A623">
+										<feature mandatory="true" name="C731"/>
+										<feature mandatory="true" name="C732"/>
+									</or>
+								</or>
+								<and abstract="true" mandatory="true" name="A609">
+									<feature mandatory="true" name="C1475"/>
+									<feature name="C1476"/>
+									<feature mandatory="true" name="C1477"/>
+								</and>
+								<feature mandatory="true" name="C610"/>
+								<and abstract="true" mandatory="true" name="A611">
+									<alt abstract="true" mandatory="true" name="A677">
+										<feature mandatory="true" name="C1610"/>
+										<feature mandatory="true" name="C1611"/>
+										<feature mandatory="true" name="C1612"/>
+										<feature mandatory="true" name="C1613"/>
+										<feature mandatory="true" name="C1614"/>
+										<feature mandatory="true" name="C1615"/>
+										<feature mandatory="true" name="C1616"/>
+										<feature mandatory="true" name="C1617"/>
+									</alt>
+									<feature mandatory="true" name="C678"/>
+									<feature name="C679"/>
+									<feature name="C680"/>
+									<feature mandatory="true" name="C681"/>
+									<and abstract="true" mandatory="true" name="A682">
+										<feature mandatory="true" name="C1765"/>
+										<feature name="C1766"/>
+									</and>
+									<feature mandatory="true" name="C683"/>
+									<and abstract="true" name="A684">
+										<feature mandatory="true" name="C1982"/>
+										<feature mandatory="true" name="C1983"/>
+										<feature mandatory="true" name="C1984"/>
+										<feature name="C1985"/>
+										<feature name="C1986"/>
+										<feature mandatory="true" name="C1987"/>
+										<feature name="C1988"/>
+									</and>
+									<feature name="C685"/>
+									<feature mandatory="true" name="C686"/>
+								</and>
+								<feature mandatory="true" name="C612"/>
+							</alt>
+							<or abstract="true" mandatory="true" name="A128">
+								<feature mandatory="true" name="C524"/>
+								<feature mandatory="true" name="C525"/>
+							</or>
+							<and abstract="true" name="A129">
+								<feature mandatory="true" name="C206"/>
+								<and abstract="true" name="A207">
+									<feature mandatory="true" name="C1400"/>
+									<feature name="C1401"/>
+									<feature name="C1402"/>
+									<feature mandatory="true" name="C1403"/>
+								</and>
+								<feature name="C208"/>
+								<feature name="C209"/>
+								<and abstract="true" mandatory="true" name="A210">
+									<feature mandatory="true" name="C1124"/>
+									<feature mandatory="true" name="C1125"/>
+									<and abstract="true" mandatory="true" name="A1126">
+										<feature mandatory="true" name="C1370"/>
+										<feature mandatory="true" name="C1371"/>
+									</and>
+									<feature mandatory="true" name="C1127"/>
+								</and>
+								<feature mandatory="true" name="C211"/>
+								<alt abstract="true" name="A212">
+									<feature mandatory="true" name="C276"/>
+									<or abstract="true" mandatory="true" name="A277">
+										<alt abstract="true" mandatory="true" name="A952">
+											<feature mandatory="true" name="C1173"/>
+											<and abstract="true" mandatory="true" name="A1174">
+												<and abstract="true" mandatory="true" name="A1353">
+													<feature mandatory="true" name="C1767"/>
+													<feature mandatory="true" name="C1768"/>
+													<feature mandatory="true" name="C1769"/>
+												</and>
+												<feature mandatory="true" name="C1354"/>
+												<feature mandatory="true" name="C1355"/>
+											</and>
+										</alt>
+										<feature mandatory="true" name="C953"/>
+										<feature mandatory="true" name="C954"/>
+										<feature mandatory="true" name="C955"/>
+										<feature mandatory="true" name="C956"/>
+									</or>
+									<and abstract="true" mandatory="true" name="A278">
+										<and abstract="true" mandatory="true" name="A426">
+											<feature mandatory="true" name="C889"/>
+											<feature mandatory="true" name="C890"/>
+										</and>
+									</and>
+									<feature mandatory="true" name="C279"/>
+									<feature mandatory="true" name="C280"/>
+									<feature mandatory="true" name="C281"/>
+									<or abstract="true" mandatory="true" name="A282">
+										<feature mandatory="true" name="C1444"/>
+										<feature mandatory="true" name="C1445"/>
+										<feature mandatory="true" name="C1446"/>
+										<feature mandatory="true" name="C1447"/>
+										<feature mandatory="true" name="C1448"/>
+									</or>
+									<feature mandatory="true" name="C283"/>
+									<feature mandatory="true" name="C284"/>
+								</alt>
+								<alt abstract="true" mandatory="true" name="A213">
+									<feature mandatory="true" name="C903"/>
+									<feature mandatory="true" name="C904"/>
+									<feature mandatory="true" name="C905"/>
+									<feature mandatory="true" name="C906"/>
+									<feature mandatory="true" name="C907"/>
+									<feature mandatory="true" name="C908"/>
+									<feature mandatory="true" name="C909"/>
+								</alt>
+							</and>
+						</and>
+						<or abstract="true" mandatory="true" name="A112">
+							<feature mandatory="true" name="C354"/>
+							<feature mandatory="true" name="C355"/>
+							<feature mandatory="true" name="C356"/>
+							<or abstract="true" mandatory="true" name="A357">
+								<feature mandatory="true" name="C782"/>
+								<feature mandatory="true" name="C783"/>
+								<feature mandatory="true" name="C784"/>
+								<feature mandatory="true" name="C785"/>
+								<feature mandatory="true" name="C786"/>
+								<feature mandatory="true" name="C787"/>
+								<feature mandatory="true" name="C788"/>
+								<feature mandatory="true" name="C789"/>
+								<feature mandatory="true" name="C790"/>
+								<feature mandatory="true" name="C791"/>
+							</or>
+						</or>
+						<and abstract="true" mandatory="true" name="A113">
+							<feature mandatory="true" name="C214"/>
+							<alt abstract="true" name="A215">
+								<feature mandatory="true" name="C1705"/>
+								<feature mandatory="true" name="C1706"/>
+							</alt>
+							<and abstract="true" mandatory="true" name="A216">
+								<and abstract="true" mandatory="true" name="A1007">
+									<feature mandatory="true" name="C1053"/>
+									<feature mandatory="true" name="C1054"/>
+									<feature name="C1055"/>
+									<feature name="C1056"/>
+								</and>
+								<feature mandatory="true" name="C1008"/>
+								<feature mandatory="true" name="C1009"/>
+								<or abstract="true" name="A1010">
+									<and abstract="true" mandatory="true" name="A1232">
+										<feature mandatory="true" name="C1691"/>
+										<feature name="C1692"/>
+										<feature mandatory="true" name="C1693"/>
+										<feature name="C1694"/>
+										<feature mandatory="true" name="C1695"/>
+									</and>
+									<feature mandatory="true" name="C1233"/>
+									<feature mandatory="true" name="C1234"/>
+									<feature mandatory="true" name="C1235"/>
+								</or>
+								<feature mandatory="true" name="C1011"/>
+							</and>
+							<feature mandatory="true" name="C217"/>
+							<feature name="C218"/>
+							<and abstract="true" name="A219">
+								<feature mandatory="true" name="C1757"/>
+								<feature mandatory="true" name="C1758"/>
+								<feature name="C1759"/>
+								<alt abstract="true" name="A1760">
+									<feature mandatory="true" name="C1913"/>
+									<feature mandatory="true" name="C1914"/>
+									<feature mandatory="true" name="C1915"/>
+								</alt>
+								<feature mandatory="true" name="C1761"/>
+								<feature name="C1762"/>
+								<feature name="C1763"/>
+								<feature name="C1764"/>
+							</and>
+							<feature name="C220"/>
+							<feature mandatory="true" name="C221"/>
+						</and>
+						<feature mandatory="true" name="C114"/>
+						<and abstract="true" mandatory="true" name="A115">
+							<feature mandatory="true" name="C1241"/>
+							<feature name="C1242"/>
+							<feature mandatory="true" name="C1243"/>
+							<feature name="C1244"/>
+							<feature mandatory="true" name="C1245"/>
+							<feature mandatory="true" name="C1246"/>
+							<feature name="C1247"/>
+							<feature name="C1248"/>
+						</and>
+					</or>
+					<feature mandatory="true" name="C47"/>
+					<or abstract="true" name="A48">
+						<feature mandatory="true" name="C664"/>
+						<or abstract="true" mandatory="true" name="A665">
+							<feature mandatory="true" name="C1378"/>
+							<feature mandatory="true" name="C1379"/>
+							<feature mandatory="true" name="C1380"/>
+							<feature mandatory="true" name="C1381"/>
+							<feature mandatory="true" name="C1382"/>
+							<feature mandatory="true" name="C1383"/>
+						</or>
+						<feature mandatory="true" name="C666"/>
+						<feature mandatory="true" name="C667"/>
+						<feature mandatory="true" name="C668"/>
+					</or>
+					<and abstract="true" mandatory="true" name="A49">
+						<feature mandatory="true" name="C116"/>
+						<feature name="C117"/>
+						<or abstract="true" mandatory="true" name="A118">
+							<alt abstract="true" mandatory="true" name="A191">
+								<alt abstract="true" mandatory="true" name="A446">
+									<feature mandatory="true" name="C507"/>
+									<feature mandatory="true" name="C508"/>
+									<feature mandatory="true" name="C509"/>
+									<feature mandatory="true" name="C510"/>
+									<feature mandatory="true" name="C511"/>
+									<or abstract="true" mandatory="true" name="A512">
+										<feature mandatory="true" name="C669"/>
+										<feature mandatory="true" name="C670"/>
+										<feature mandatory="true" name="C671"/>
+										<feature mandatory="true" name="C672"/>
+										<and abstract="true" mandatory="true" name="A673">
+											<feature mandatory="true" name="C834"/>
+											<feature mandatory="true" name="C835"/>
+										</and>
+										<feature mandatory="true" name="C674"/>
+										<feature mandatory="true" name="C675"/>
+										<feature mandatory="true" name="C676"/>
+									</or>
+									<feature mandatory="true" name="C513"/>
+									<feature mandatory="true" name="C514"/>
+									<feature mandatory="true" name="C515"/>
+								</alt>
+								<feature mandatory="true" name="C447"/>
+								<feature mandatory="true" name="C448"/>
+								<feature mandatory="true" name="C449"/>
+							</alt>
+							<or abstract="true" mandatory="true" name="A192">
+								<feature mandatory="true" name="C624"/>
+								<and abstract="true" mandatory="true" name="A625">
+									<feature mandatory="true" name="C1826"/>
+									<feature mandatory="true" name="C1827"/>
+									<feature name="C1828"/>
+									<feature name="C1829"/>
+									<feature mandatory="true" name="C1830"/>
+								</and>
+								<feature mandatory="true" name="C626"/>
+								<feature mandatory="true" name="C627"/>
+								<feature mandatory="true" name="C628"/>
+								<feature mandatory="true" name="C629"/>
+								<feature mandatory="true" name="C630"/>
+							</or>
+							<feature mandatory="true" name="C193"/>
+							<feature mandatory="true" name="C194"/>
+							<and abstract="true" mandatory="true" name="A195">
+								<feature mandatory="true" name="C775"/>
+								<feature mandatory="true" name="C776"/>
+								<or abstract="true" mandatory="true" name="A777">
+									<feature mandatory="true" name="C910"/>
+									<and abstract="true" mandatory="true" name="A911">
+										<feature mandatory="true" name="C1313"/>
+										<feature name="C1314"/>
+										<feature mandatory="true" name="C1315"/>
+										<feature mandatory="true" name="C1316"/>
+										<feature mandatory="true" name="C1317"/>
+										<feature mandatory="true" name="C1318"/>
+										<feature name="C1319"/>
+									</and>
+									<feature mandatory="true" name="C912"/>
+									<feature mandatory="true" name="C913"/>
+									<feature mandatory="true" name="C914"/>
+								</or>
+								<feature mandatory="true" name="C778"/>
+								<feature mandatory="true" name="C779"/>
+								<alt abstract="true" mandatory="true" name="A780">
+									<or abstract="true" mandatory="true" name="A1753">
+										<feature mandatory="true" name="C1956"/>
+										<feature mandatory="true" name="C1957"/>
+										<feature mandatory="true" name="C1958"/>
+										<feature mandatory="true" name="C1959"/>
+										<feature mandatory="true" name="C1960"/>
+										<feature mandatory="true" name="C1961"/>
+										<feature mandatory="true" name="C1962"/>
+									</or>
+									<feature mandatory="true" name="C1754"/>
+									<feature mandatory="true" name="C1755"/>
+								</alt>
+								<feature mandatory="true" name="C781"/>
+							</and>
+							<or abstract="true" mandatory="true" name="A196">
+								<feature mandatory="true" name="C526"/>
+							</or>
+							<feature mandatory="true" name="C197"/>
+							<feature mandatory="true" name="C198"/>
+							<and abstract="true" mandatory="true" name="A199">
+								<feature mandatory="true" name="C480"/>
+								<or abstract="true" mandatory="true" name="A481">
+									<feature mandatory="true" name="C1479"/>
+								</or>
+							</and>
+						</or>
+						<feature mandatory="true" name="C119"/>
+						<feature name="C120"/>
+						<feature name="C121"/>
+						<alt abstract="true" mandatory="true" name="A122">
+							<feature mandatory="true" name="C386"/>
+							<feature mandatory="true" name="C387"/>
+						</alt>
+						<feature name="C123"/>
+					</and>
+					<or abstract="true" name="A50">
+						<feature mandatory="true" name="C494"/>
+						<or abstract="true" mandatory="true" name="A495">
+							<feature mandatory="true" name="C613"/>
+							<feature mandatory="true" name="C614"/>
+							<feature mandatory="true" name="C615"/>
+						</or>
+					</or>
+				</and>
+				<and abstract="true" name="A6">
+					<and abstract="true" mandatory="true" name="A436">
+						<feature mandatory="true" name="C516"/>
+						<or abstract="true" mandatory="true" name="A517">
+							<feature mandatory="true" name="C1618"/>
+							<feature mandatory="true" name="C1619"/>
+							<feature mandatory="true" name="C1620"/>
+							<feature mandatory="true" name="C1621"/>
+							<feature mandatory="true" name="C1622"/>
+						</or>
+						<feature name="C518"/>
+					</and>
+					<feature name="C437"/>
+					<feature mandatory="true" name="C438"/>
+					<alt abstract="true" mandatory="true" name="A439">
+						<feature mandatory="true" name="C758"/>
+						<feature mandatory="true" name="C759"/>
+						<feature mandatory="true" name="C760"/>
+						<feature mandatory="true" name="C761"/>
+						<feature mandatory="true" name="C762"/>
+						<alt abstract="true" mandatory="true" name="A763">
+							<feature mandatory="true" name="C1372"/>
+						</alt>
+						<feature mandatory="true" name="C764"/>
+						<feature mandatory="true" name="C765"/>
+						<feature mandatory="true" name="C766"/>
+						<feature mandatory="true" name="C767"/>
+					</alt>
+				</and>
+				<and abstract="true" mandatory="true" name="A7">
+					<and abstract="true" mandatory="true" name="A9">
+						<feature mandatory="true" name="C244"/>
+						<feature mandatory="true" name="C245"/>
+						<feature name="C246"/>
+						<or abstract="true" mandatory="true" name="A247">
+							<feature mandatory="true" name="C417"/>
+							<feature mandatory="true" name="C418"/>
+							<alt abstract="true" mandatory="true" name="A419">
+								<feature mandatory="true" name="C541"/>
+								<and abstract="true" mandatory="true" name="A542">
+									<feature mandatory="true" name="C800"/>
+								</and>
+								<feature mandatory="true" name="C543"/>
+								<feature mandatory="true" name="C544"/>
+								<feature mandatory="true" name="C545"/>
+							</alt>
+							<feature mandatory="true" name="C420"/>
+							<or abstract="true" mandatory="true" name="A421">
+								<feature mandatory="true" name="C642"/>
+								<alt abstract="true" mandatory="true" name="A643">
+									<feature mandatory="true" name="C713"/>
+									<feature mandatory="true" name="C714"/>
+									<and abstract="true" mandatory="true" name="A715">
+										<feature mandatory="true" name="C1727"/>
+										<feature mandatory="true" name="C1728"/>
+										<feature mandatory="true" name="C1729"/>
+										<feature mandatory="true" name="C1730"/>
+										<feature mandatory="true" name="C1731"/>
+										<feature mandatory="true" name="C1732"/>
+										<feature name="C1733"/>
+									</and>
+									<feature mandatory="true" name="C716"/>
+								</alt>
+								<feature mandatory="true" name="C644"/>
+								<feature mandatory="true" name="C645"/>
+								<feature mandatory="true" name="C646"/>
+								<feature mandatory="true" name="C647"/>
+								<feature mandatory="true" name="C648"/>
+								<alt abstract="true" mandatory="true" name="A649">
+									<feature mandatory="true" name="C704"/>
+									<feature mandatory="true" name="C705"/>
+									<feature mandatory="true" name="C706"/>
+									<feature mandatory="true" name="C707"/>
+									<feature mandatory="true" name="C708"/>
+									<feature mandatory="true" name="C709"/>
+									<feature mandatory="true" name="C710"/>
+									<feature mandatory="true" name="C711"/>
+									<feature mandatory="true" name="C712"/>
+								</alt>
+								<feature mandatory="true" name="C650"/>
+								<feature mandatory="true" name="C651"/>
+							</or>
+							<feature mandatory="true" name="C422"/>
+							<feature mandatory="true" name="C423"/>
+							<feature mandatory="true" name="C424"/>
+							<feature mandatory="true" name="C425"/>
+						</or>
+						<feature mandatory="true" name="C248"/>
+						<feature mandatory="true" name="C249"/>
+						<feature name="C250"/>
+						<feature name="C251"/>
+					</and>
+					<and abstract="true" mandatory="true" name="A10">
+						<or abstract="true" mandatory="true" name="A59">
+							<and abstract="true" mandatory="true" name="A66">
+								<feature mandatory="true" name="C1211"/>
+								<feature mandatory="true" name="C1212"/>
+								<or abstract="true" mandatory="true" name="A1213">
+									<feature mandatory="true" name="C1468"/>
+								</or>
+								<feature name="C1214"/>
+								<feature mandatory="true" name="C1215"/>
+							</and>
+							<and abstract="true" mandatory="true" name="A67">
+								<and abstract="true" mandatory="true" name="A323">
+									<feature mandatory="true" name="C1296"/>
+									<feature name="C1297"/>
+									<feature mandatory="true" name="C1298"/>
+									<feature name="C1299"/>
+									<feature mandatory="true" name="C1300"/>
+									<feature name="C1301"/>
+									<feature mandatory="true" name="C1302"/>
+									<feature name="C1303"/>
+									<feature mandatory="true" name="C1304"/>
+									<and abstract="true" name="A1305">
+										<feature mandatory="true" name="C1748"/>
+										<feature mandatory="true" name="C1749"/>
+										<feature mandatory="true" name="C1750"/>
+										<feature name="C1751"/>
+										<feature mandatory="true" name="C1752"/>
+									</and>
+								</and>
+								<or abstract="true" name="A324">
+									<feature mandatory="true" name="C820"/>
+									<feature mandatory="true" name="C821"/>
+									<feature mandatory="true" name="C822"/>
+									<feature mandatory="true" name="C823"/>
+									<feature mandatory="true" name="C824"/>
+									<feature mandatory="true" name="C825"/>
+									<feature mandatory="true" name="C826"/>
+									<feature mandatory="true" name="C827"/>
+								</or>
+								<feature mandatory="true" name="C325"/>
+							</and>
+							<and abstract="true" mandatory="true" name="A68">
+								<feature mandatory="true" name="C1263"/>
+								<feature mandatory="true" name="C1264"/>
+								<and abstract="true" name="A1265">
+									<feature mandatory="true" name="C1538"/>
+									<feature mandatory="true" name="C1539"/>
+								</and>
+								<feature mandatory="true" name="C1266"/>
+								<feature name="C1267"/>
+								<feature name="C1268"/>
+							</and>
+							<or abstract="true" mandatory="true" name="A69">
+								<feature mandatory="true" name="C148"/>
+								<feature mandatory="true" name="C149"/>
+							</or>
+							<alt abstract="true" mandatory="true" name="A70">
+								<feature mandatory="true" name="C94"/>
+								<feature mandatory="true" name="C95"/>
+								<and abstract="true" mandatory="true" name="A96">
+									<feature mandatory="true" name="C349"/>
+									<and abstract="true" mandatory="true" name="A350">
+										<feature mandatory="true" name="C1449"/>
+										<feature mandatory="true" name="C1450"/>
+										<feature name="C1451"/>
+									</and>
+									<feature mandatory="true" name="C351"/>
+									<feature name="C352"/>
+									<and abstract="true" mandatory="true" name="A353">
+										<feature mandatory="true" name="C1534"/>
+										<feature mandatory="true" name="C1535"/>
+										<feature name="C1536"/>
+										<feature mandatory="true" name="C1537"/>
+									</and>
+								</and>
+								<feature mandatory="true" name="C97"/>
+								<and abstract="true" mandatory="true" name="A98">
+									<feature mandatory="true" name="C359"/>
+								</and>
+								<alt abstract="true" mandatory="true" name="A99">
+									<feature mandatory="true" name="C829"/>
+									<feature mandatory="true" name="C830"/>
+									<feature mandatory="true" name="C831"/>
+									<feature mandatory="true" name="C832"/>
+									<feature mandatory="true" name="C833"/>
+								</alt>
+								<alt abstract="true" mandatory="true" name="A100">
+									<alt abstract="true" mandatory="true" name="A124">
+										<feature mandatory="true" name="C801"/>
+										<feature mandatory="true" name="C802"/>
+										<feature mandatory="true" name="C803"/>
+										<feature mandatory="true" name="C804"/>
+										<feature mandatory="true" name="C805"/>
+										<feature mandatory="true" name="C806"/>
+										<feature mandatory="true" name="C807"/>
+										<feature mandatory="true" name="C808"/>
+										<and abstract="true" mandatory="true" name="A809">
+											<feature mandatory="true" name="C1916"/>
+											<feature mandatory="true" name="C1917"/>
+											<feature mandatory="true" name="C1918"/>
+											<feature name="C1919"/>
+											<feature mandatory="true" name="C1920"/>
+											<feature name="C1921"/>
+											<feature mandatory="true" name="C1922"/>
+											<alt abstract="true" name="A1923">
+												<feature mandatory="true" name="C1940"/>
+												<feature mandatory="true" name="C1941"/>
+												<feature mandatory="true" name="C1942"/>
+												<feature mandatory="true" name="C1943"/>
+												<feature mandatory="true" name="C1944"/>
+												<feature mandatory="true" name="C1945"/>
+												<feature mandatory="true" name="C1946"/>
+												<feature mandatory="true" name="C1947"/>
+											</alt>
+											<feature mandatory="true" name="C1924"/>
+										</and>
+										<or abstract="true" mandatory="true" name="A810">
+											<feature mandatory="true" name="C1025"/>
+											<feature mandatory="true" name="C1026"/>
+											<feature mandatory="true" name="C1027"/>
+											<feature mandatory="true" name="C1028"/>
+											<feature mandatory="true" name="C1029"/>
+											<feature mandatory="true" name="C1030"/>
+											<feature mandatory="true" name="C1031"/>
+											<and abstract="true" mandatory="true" name="A1032">
+												<feature mandatory="true" name="C1494"/>
+											</and>
+										</or>
+									</alt>
+								</alt>
+								<and abstract="true" mandatory="true" name="A101">
+									<feature mandatory="true" name="C531"/>
+									<alt abstract="true" mandatory="true" name="A532">
+										<feature mandatory="true" name="C593"/>
+									</alt>
+									<feature mandatory="true" name="C533"/>
+									<feature name="C534"/>
+									<feature name="C535"/>
+									<or abstract="true" name="A536">
+										<feature mandatory="true" name="C1953"/>
+										<feature mandatory="true" name="C1954"/>
+									</or>
+									<feature name="C537"/>
+									<feature mandatory="true" name="C538"/>
+									<feature mandatory="true" name="C539"/>
+									<feature mandatory="true" name="C540"/>
+								</and>
+								<and abstract="true" mandatory="true" name="A102">
+									<feature mandatory="true" name="C328"/>
+									<feature name="C329"/>
+									<feature name="C330"/>
+									<and abstract="true" mandatory="true" name="A331">
+										<feature mandatory="true" name="C891"/>
+										<feature mandatory="true" name="C892"/>
+										<or abstract="true" mandatory="true" name="A893">
+											<feature mandatory="true" name="C1306"/>
+										</or>
+										<feature name="C894"/>
+									</and>
+									<and abstract="true" name="A332">
+										<feature mandatory="true" name="C1523"/>
+									</and>
+									<and abstract="true" mandatory="true" name="A333">
+										<feature mandatory="true" name="C408"/>
+										<feature mandatory="true" name="C409"/>
+										<or abstract="true" name="A410">
+											<and abstract="true" mandatory="true" name="A896">
+												<feature mandatory="true" name="C1629"/>
+												<feature mandatory="true" name="C1630"/>
+											</and>
+											<feature mandatory="true" name="C897"/>
+											<feature mandatory="true" name="C898"/>
+											<feature mandatory="true" name="C899"/>
+											<feature mandatory="true" name="C900"/>
+											<feature mandatory="true" name="C901"/>
+											<feature mandatory="true" name="C902"/>
+										</or>
+										<feature name="C411"/>
+										<and abstract="true" name="A412">
+											<feature mandatory="true" name="C1106"/>
+											<feature name="C1107"/>
+											<feature mandatory="true" name="C1108"/>
+											<feature mandatory="true" name="C1109"/>
+											<and abstract="true" mandatory="true" name="A1110">
+												<feature mandatory="true" name="C1478"/>
+											</and>
+											<alt abstract="true" mandatory="true" name="A1111">
+												<feature mandatory="true" name="C1648"/>
+												<feature mandatory="true" name="C1649"/>
+												<feature mandatory="true" name="C1650"/>
+												<feature mandatory="true" name="C1651"/>
+												<or abstract="true" mandatory="true" name="A1652">
+													<feature mandatory="true" name="C1882"/>
+													<feature mandatory="true" name="C1883"/>
+													<feature mandatory="true" name="C1884"/>
+													<feature mandatory="true" name="C1885"/>
+													<feature mandatory="true" name="C1886"/>
+													<feature mandatory="true" name="C1887"/>
+													<feature mandatory="true" name="C1888"/>
+													<feature mandatory="true" name="C1889"/>
+												</or>
+											</alt>
+											<feature mandatory="true" name="C1112"/>
+											<feature name="C1113"/>
+										</and>
+									</and>
+								</and>
+								<feature mandatory="true" name="C103"/>
+							</alt>
+						</or>
+						<and abstract="true" name="A60">
+							<feature mandatory="true" name="C440"/>
+							<feature name="C441"/>
+							<feature mandatory="true" name="C442"/>
+						</and>
+						<and abstract="true" name="A61">
+							<and abstract="true" mandatory="true" name="A136">
+								<feature mandatory="true" name="C1653"/>
+								<feature mandatory="true" name="C1654"/>
+								<feature name="C1655"/>
+								<feature mandatory="true" name="C1656"/>
+							</and>
+							<feature mandatory="true" name="C137"/>
+							<and abstract="true" name="A138">
+								<feature mandatory="true" name="C631"/>
+								<feature mandatory="true" name="C632"/>
+							</and>
+							<feature mandatory="true" name="C139"/>
+							<feature name="C140"/>
+						</and>
+						<and abstract="true" mandatory="true" name="A62">
+							<feature mandatory="true" name="C262"/>
+							<feature name="C263"/>
+							<feature mandatory="true" name="C264"/>
+							<feature name="C265"/>
+							<feature name="C266"/>
+							<feature name="C267"/>
+						</and>
+						<feature mandatory="true" name="C63"/>
+					</and>
+					<and abstract="true" mandatory="true" name="A11">
+						<feature mandatory="true" name="C130"/>
+						<feature name="C131"/>
+						<or abstract="true" name="A132">
+							<or abstract="true" mandatory="true" name="A295">
+								<and abstract="true" mandatory="true" name="A358">
+									<feature mandatory="true" name="C558"/>
+									<feature name="C559"/>
+									<feature name="C560"/>
+									<feature mandatory="true" name="C561"/>
+								</and>
+							</or>
+							<feature mandatory="true" name="C296"/>
+							<and abstract="true" mandatory="true" name="A297">
+								<feature mandatory="true" name="C407"/>
+							</and>
+							<feature mandatory="true" name="C298"/>
+							<and abstract="true" mandatory="true" name="A299">
+								<feature mandatory="true" name="C888"/>
+							</and>
+						</or>
+						<feature name="C133"/>
+						<and abstract="true" mandatory="true" name="A134">
+							<feature mandatory="true" name="C181"/>
+							<alt abstract="true" mandatory="true" name="A182">
+								<or abstract="true" mandatory="true" name="A498">
+									<feature mandatory="true" name="C943"/>
+									<feature mandatory="true" name="C944"/>
+									<feature mandatory="true" name="C945"/>
+									<feature mandatory="true" name="C946"/>
+									<or abstract="true" mandatory="true" name="A947">
+										<feature mandatory="true" name="C1022"/>
+										<feature mandatory="true" name="C1023"/>
+										<feature mandatory="true" name="C1024"/>
+									</or>
+									<and abstract="true" mandatory="true" name="A948">
+										<feature mandatory="true" name="C957"/>
+										<feature mandatory="true" name="C958"/>
+										<feature mandatory="true" name="C959"/>
+										<feature mandatory="true" name="C960"/>
+										<feature name="C961"/>
+									</and>
+									<and abstract="true" mandatory="true" name="A949">
+										<feature mandatory="true" name="C1205"/>
+									</and>
+									<feature mandatory="true" name="C950"/>
+								</or>
+								<and abstract="true" mandatory="true" name="A499">
+									<feature mandatory="true" name="C1083"/>
+									<feature mandatory="true" name="C1084"/>
+									<feature name="C1085"/>
+									<feature name="C1086"/>
+								</and>
+								<feature mandatory="true" name="C500"/>
+								<or abstract="true" mandatory="true" name="A501">
+									<feature mandatory="true" name="C1927"/>
+									<feature mandatory="true" name="C1928"/>
+									<feature mandatory="true" name="C1929"/>
+									<feature mandatory="true" name="C1930"/>
+									<feature mandatory="true" name="C1931"/>
+									<feature mandatory="true" name="C1932"/>
+									<feature mandatory="true" name="C1933"/>
+									<feature mandatory="true" name="C1934"/>
+								</or>
+							</alt>
+							<feature mandatory="true" name="C183"/>
+							<feature mandatory="true" name="C184"/>
+							<or abstract="true" mandatory="true" name="A185">
+								<feature mandatory="true" name="C773"/>
+								<feature mandatory="true" name="C774"/>
+							</or>
+							<feature name="C186"/>
+							<feature name="C187"/>
+							<feature mandatory="true" name="C188"/>
+							<alt abstract="true" name="A189">
+								<feature mandatory="true" name="C828"/>
+							</alt>
+							<feature mandatory="true" name="C190"/>
+						</and>
+					</and>
+					<feature name="C12"/>
+					<alt abstract="true" mandatory="true" name="A13">
+						<feature mandatory="true" name="C76"/>
+						<feature mandatory="true" name="C77"/>
+						<or abstract="true" mandatory="true" name="A78">
+							<and abstract="true" mandatory="true" name="A326">
+								<and abstract="true" mandatory="true" name="A388">
+									<feature mandatory="true" name="C482"/>
+									<and abstract="true" name="A483">
+										<feature mandatory="true" name="C1175"/>
+										<feature name="C1176"/>
+										<feature name="C1177"/>
+										<feature name="C1178"/>
+										<feature name="C1179"/>
+										<feature mandatory="true" name="C1180"/>
+										<feature name="C1181"/>
+										<alt abstract="true" name="A1182">
+											<feature mandatory="true" name="C1286"/>
+											<or abstract="true" mandatory="true" name="A1287">
+												<and abstract="true" mandatory="true" name="A1512">
+													<and abstract="true" mandatory="true" name="A1657">
+														<feature mandatory="true" name="C1770"/>
+														<feature name="C1771"/>
+														<feature mandatory="true" name="C1772"/>
+														<feature mandatory="true" name="C1773"/>
+														<feature name="C1774"/>
+														<feature name="C1775"/>
+														<feature mandatory="true" name="C1776"/>
+														<feature name="C1777"/>
+													</and>
+													<feature name="C1658"/>
+													<feature name="C1659"/>
+													<feature name="C1660"/>
+													<feature mandatory="true" name="C1661"/>
+													<and abstract="true" mandatory="true" name="A1662">
+														<feature mandatory="true" name="C1890"/>
+														<feature mandatory="true" name="C1891"/>
+														<feature name="C1892"/>
+														<feature name="C1893"/>
+														<feature mandatory="true" name="C1894"/>
+														<feature name="C1895"/>
+														<feature name="C1896"/>
+														<feature name="C1897"/>
+														<feature mandatory="true" name="C1898"/>
+													</and>
+													<feature name="C1663"/>
+													<feature mandatory="true" name="C1664"/>
+													<feature mandatory="true" name="C1665"/>
+													<feature mandatory="true" name="C1666"/>
+												</and>
+												<feature mandatory="true" name="C1513"/>
+												<feature mandatory="true" name="C1514"/>
+												<feature mandatory="true" name="C1515"/>
+												<feature mandatory="true" name="C1516"/>
+												<feature mandatory="true" name="C1517"/>
+												<feature mandatory="true" name="C1518"/>
+												<feature mandatory="true" name="C1519"/>
+												<feature mandatory="true" name="C1520"/>
+												<feature mandatory="true" name="C1521"/>
+											</or>
+											<feature mandatory="true" name="C1288"/>
+											<feature mandatory="true" name="C1289"/>
+											<feature mandatory="true" name="C1290"/>
+											<feature mandatory="true" name="C1291"/>
+											<feature mandatory="true" name="C1292"/>
+											<feature mandatory="true" name="C1293"/>
+											<feature mandatory="true" name="C1294"/>
+											<feature mandatory="true" name="C1295"/>
+										</alt>
+										<feature name="C1183"/>
+									</and>
+									<and abstract="true" mandatory="true" name="A484">
+										<feature mandatory="true" name="C486"/>
+										<or abstract="true" mandatory="true" name="A487">
+											<feature mandatory="true" name="C1565"/>
+											<feature mandatory="true" name="C1566"/>
+											<feature mandatory="true" name="C1567"/>
+											<feature mandatory="true" name="C1568"/>
+											<feature mandatory="true" name="C1569"/>
+											<feature mandatory="true" name="C1570"/>
+										</or>
+										<feature name="C488"/>
+										<feature name="C489"/>
+										<alt abstract="true" name="A490">
+											<feature mandatory="true" name="C1668"/>
+											<feature mandatory="true" name="C1669"/>
+											<feature mandatory="true" name="C1670"/>
+											<feature mandatory="true" name="C1671"/>
+											<feature mandatory="true" name="C1672"/>
+											<feature mandatory="true" name="C1673"/>
+											<feature mandatory="true" name="C1674"/>
+											<feature mandatory="true" name="C1675"/>
+										</alt>
+										<feature name="C491"/>
+										<and abstract="true" mandatory="true" name="A492">
+											<feature mandatory="true" name="C1909"/>
+											<feature name="C1910"/>
+											<feature name="C1911"/>
+										</and>
+										<feature mandatory="true" name="C493"/>
+									</and>
+									<and abstract="true" name="A485">
+										<and abstract="true" mandatory="true" name="A1452">
+											<feature mandatory="true" name="C1598"/>
+											<feature mandatory="true" name="C1599"/>
+											<feature name="C1600"/>
+											<feature name="C1601"/>
+											<feature name="C1602"/>
+											<feature mandatory="true" name="C1603"/>
+											<feature mandatory="true" name="C1604"/>
+										</and>
+										<feature mandatory="true" name="C1453"/>
+										<feature name="C1454"/>
+									</and>
+								</and>
+								<feature mandatory="true" name="C389"/>
+								<feature name="C390"/>
+								<or abstract="true" name="A391">
+									<feature mandatory="true" name="C519"/>
+									<feature mandatory="true" name="C520"/>
+									<and abstract="true" mandatory="true" name="A521">
+										<feature mandatory="true" name="C895"/>
+									</and>
+									<and abstract="true" mandatory="true" name="A522">
+										<feature mandatory="true" name="C1646"/>
+										<feature name="C1647"/>
+									</and>
+									<and abstract="true" mandatory="true" name="A523">
+										<feature mandatory="true" name="C1975"/>
+										<feature name="C1976"/>
+										<feature name="C1977"/>
+										<feature mandatory="true" name="C1978"/>
+										<feature name="C1979"/>
+										<feature mandatory="true" name="C1980"/>
+										<feature mandatory="true" name="C1981"/>
+									</and>
+								</or>
+								<or abstract="true" mandatory="true" name="A392">
+									<feature mandatory="true" name="C923"/>
+									<feature mandatory="true" name="C924"/>
+									<feature mandatory="true" name="C925"/>
+									<feature mandatory="true" name="C926"/>
+									<feature mandatory="true" name="C927"/>
+									<feature mandatory="true" name="C928"/>
+									<feature mandatory="true" name="C929"/>
+									<and abstract="true" mandatory="true" name="A930">
+										<feature mandatory="true" name="C1236"/>
+										<feature name="C1237"/>
+										<feature name="C1238"/>
+										<or abstract="true" name="A1239">
+											<feature mandatory="true" name="C1688"/>
+											<feature mandatory="true" name="C1689"/>
+											<feature mandatory="true" name="C1690"/>
+										</or>
+										<and abstract="true" name="A1240">
+											<feature mandatory="true" name="C1341"/>
+											<feature mandatory="true" name="C1342"/>
+											<feature mandatory="true" name="C1343"/>
+											<feature mandatory="true" name="C1344"/>
+										</and>
+									</and>
+									<feature mandatory="true" name="C931"/>
+								</or>
+								<and abstract="true" name="A393">
+									<feature mandatory="true" name="C1087"/>
+									<feature name="C1088"/>
+									<feature mandatory="true" name="C1089"/>
+									<feature mandatory="true" name="C1090"/>
+								</and>
+								<feature name="C394"/>
+								<feature name="C395"/>
+								<feature mandatory="true" name="C396"/>
+							</and>
+							<feature mandatory="true" name="C327"/>
+						</or>
+						<or abstract="true" mandatory="true" name="A79">
+							<feature mandatory="true" name="C84"/>
+							<feature mandatory="true" name="C85"/>
+							<feature mandatory="true" name="C86"/>
+							<feature mandatory="true" name="C87"/>
+							<alt abstract="true" mandatory="true" name="A88">
+								<feature mandatory="true" name="C252"/>
+								<feature mandatory="true" name="C253"/>
+								<alt abstract="true" mandatory="true" name="A254">
+									<and abstract="true" mandatory="true" name="A307">
+										<feature mandatory="true" name="C1206"/>
+										<feature mandatory="true" name="C1207"/>
+										<feature name="C1208"/>
+										<feature name="C1209"/>
+										<feature mandatory="true" name="C1210"/>
+									</and>
+								</alt>
+								<feature mandatory="true" name="C255"/>
+								<feature mandatory="true" name="C256"/>
+								<feature mandatory="true" name="C257"/>
+								<alt abstract="true" mandatory="true" name="A258">
+									<feature mandatory="true" name="C342"/>
+									<or abstract="true" mandatory="true" name="A343">
+										<feature mandatory="true" name="C616"/>
+										<feature mandatory="true" name="C617"/>
+										<feature mandatory="true" name="C618"/>
+										<and abstract="true" mandatory="true" name="A619">
+											<feature mandatory="true" name="C976"/>
+											<feature name="C977"/>
+											<feature name="C978"/>
+											<feature mandatory="true" name="C979"/>
+										</and>
+									</or>
+									<feature mandatory="true" name="C344"/>
+									<feature mandatory="true" name="C345"/>
+									<feature mandatory="true" name="C346"/>
+									<feature mandatory="true" name="C347"/>
+									<alt abstract="true" mandatory="true" name="A348">
+										<feature mandatory="true" name="C1253"/>
+										<feature mandatory="true" name="C1254"/>
+										<feature mandatory="true" name="C1255"/>
+										<feature mandatory="true" name="C1256"/>
+										<feature mandatory="true" name="C1257"/>
+										<and abstract="true" mandatory="true" name="A1258">
+											<feature mandatory="true" name="C1841"/>
+											<feature name="C1842"/>
+											<feature name="C1843"/>
+											<and abstract="true" mandatory="true" name="A1844">
+												<feature mandatory="true" name="C1912"/>
+											</and>
+											<feature name="C1845"/>
+										</and>
+										<feature mandatory="true" name="C1259"/>
+									</alt>
+								</alt>
+								<feature mandatory="true" name="C259"/>
+								<feature mandatory="true" name="C260"/>
+								<feature mandatory="true" name="C261"/>
+							</alt>
+							<feature mandatory="true" name="C89"/>
+							<feature mandatory="true" name="C90"/>
+							<or abstract="true" mandatory="true" name="A91">
+								<feature mandatory="true" name="C583"/>
+							</or>
+							<feature mandatory="true" name="C92"/>
+							<or abstract="true" mandatory="true" name="A93">
+								<feature mandatory="true" name="C548"/>
+								<feature mandatory="true" name="C549"/>
+								<feature mandatory="true" name="C550"/>
+								<feature mandatory="true" name="C551"/>
+								<feature mandatory="true" name="C552"/>
+							</or>
+						</or>
+						<feature mandatory="true" name="C80"/>
+						<feature mandatory="true" name="C81"/>
+						<feature mandatory="true" name="C82"/>
+					</alt>
+					<feature mandatory="true" name="C14"/>
+				</and>
+				<or abstract="true" mandatory="true" name="A8">
+					<feature mandatory="true" name="C32"/>
+					<feature mandatory="true" name="C33"/>
+					<or abstract="true" mandatory="true" name="A34">
+						<or abstract="true" mandatory="true" name="A36">
+							<feature mandatory="true" name="C836"/>
+							<feature mandatory="true" name="C837"/>
+							<feature mandatory="true" name="C838"/>
+							<alt abstract="true" mandatory="true" name="A839">
+								<feature mandatory="true" name="C842"/>
+								<feature mandatory="true" name="C843"/>
+							</alt>
+							<feature mandatory="true" name="C840"/>
+							<feature mandatory="true" name="C841"/>
+						</or>
+						<alt abstract="true" mandatory="true" name="A37">
+							<and abstract="true" mandatory="true" name="A51">
+								<and abstract="true" mandatory="true" name="A135">
+									<feature mandatory="true" name="C167"/>
+									<and abstract="true" mandatory="true" name="A168">
+										<and abstract="true" mandatory="true" name="A317">
+											<feature mandatory="true" name="C453"/>
+											<or abstract="true" name="A454">
+												<feature mandatory="true" name="C1039"/>
+												<feature mandatory="true" name="C1040"/>
+												<feature mandatory="true" name="C1041"/>
+												<feature mandatory="true" name="C1042"/>
+												<feature mandatory="true" name="C1043"/>
+												<feature mandatory="true" name="C1044"/>
+												<feature mandatory="true" name="C1045"/>
+												<alt abstract="true" mandatory="true" name="A1046">
+													<feature mandatory="true" name="C1502"/>
+													<feature mandatory="true" name="C1503"/>
+													<feature mandatory="true" name="C1504"/>
+													<feature mandatory="true" name="C1505"/>
+													<feature mandatory="true" name="C1506"/>
+													<feature mandatory="true" name="C1507"/>
+													<feature mandatory="true" name="C1508"/>
+													<feature mandatory="true" name="C1509"/>
+													<and abstract="true" mandatory="true" name="A1510">
+														<feature mandatory="true" name="C1631"/>
+														<feature mandatory="true" name="C1632"/>
+														<feature name="C1633"/>
+														<feature name="C1634"/>
+														<feature name="C1635"/>
+														<feature name="C1636"/>
+													</and>
+													<feature mandatory="true" name="C1511"/>
+												</alt>
+												<feature mandatory="true" name="C1047"/>
+												<feature mandatory="true" name="C1048"/>
+											</or>
+											<or abstract="true" mandatory="true" name="A455">
+												<feature mandatory="true" name="C1272"/>
+												<feature mandatory="true" name="C1273"/>
+												<feature mandatory="true" name="C1274"/>
+												<feature mandatory="true" name="C1275"/>
+												<or abstract="true" mandatory="true" name="A1276">
+													<feature mandatory="true" name="C1797"/>
+													<feature mandatory="true" name="C1798"/>
+													<feature mandatory="true" name="C1799"/>
+													<feature mandatory="true" name="C1800"/>
+													<feature mandatory="true" name="C1801"/>
+													<feature mandatory="true" name="C1802"/>
+													<feature mandatory="true" name="C1803"/>
+												</or>
+												<feature mandatory="true" name="C1277"/>
+												<feature mandatory="true" name="C1278"/>
+												<feature mandatory="true" name="C1279"/>
+											</or>
+											<feature mandatory="true" name="C456"/>
+											<and abstract="true" mandatory="true" name="A457">
+												<feature mandatory="true" name="C1000"/>
+												<or abstract="true" name="A1001">
+													<feature mandatory="true" name="C1384"/>
+													<feature mandatory="true" name="C1385"/>
+													<feature mandatory="true" name="C1386"/>
+													<feature mandatory="true" name="C1387"/>
+													<feature mandatory="true" name="C1388"/>
+													<and abstract="true" mandatory="true" name="A1389">
+														<feature mandatory="true" name="C1574"/>
+														<feature mandatory="true" name="C1575"/>
+														<feature name="C1576"/>
+														<feature mandatory="true" name="C1577"/>
+														<feature mandatory="true" name="C1578"/>
+														<feature name="C1579"/>
+														<feature mandatory="true" name="C1580"/>
+														<feature name="C1581"/>
+														<feature name="C1582"/>
+														<feature name="C1583"/>
+													</and>
+													<feature mandatory="true" name="C1390"/>
+													<feature mandatory="true" name="C1391"/>
+												</or>
+												<feature mandatory="true" name="C1002"/>
+												<feature name="C1003"/>
+												<feature mandatory="true" name="C1004"/>
+												<feature mandatory="true" name="C1005"/>
+												<feature mandatory="true" name="C1006"/>
+											</and>
+											<and abstract="true" name="A458">
+												<or abstract="true" mandatory="true" name="A792">
+													<feature mandatory="true" name="C963"/>
+													<feature mandatory="true" name="C964"/>
+													<alt abstract="true" mandatory="true" name="A965">
+														<feature mandatory="true" name="C1485"/>
+														<feature mandatory="true" name="C1486"/>
+														<feature mandatory="true" name="C1487"/>
+														<feature mandatory="true" name="C1488"/>
+														<feature mandatory="true" name="C1489"/>
+														<feature mandatory="true" name="C1490"/>
+														<feature mandatory="true" name="C1491"/>
+														<feature mandatory="true" name="C1492"/>
+														<feature mandatory="true" name="C1493"/>
+													</alt>
+													<feature mandatory="true" name="C966"/>
+													<feature mandatory="true" name="C967"/>
+													<or abstract="true" mandatory="true" name="A968">
+														<feature mandatory="true" name="C990"/>
+													</or>
+													<feature mandatory="true" name="C969"/>
+													<feature mandatory="true" name="C970"/>
+													<feature mandatory="true" name="C971"/>
+												</or>
+												<feature mandatory="true" name="C793"/>
+												<feature mandatory="true" name="C794"/>
+												<and abstract="true" mandatory="true" name="A795">
+													<feature mandatory="true" name="C1522"/>
+												</and>
+												<feature mandatory="true" name="C796"/>
+												<feature name="C797"/>
+												<feature name="C798"/>
+												<feature name="C799"/>
+											</and>
+											<feature name="C459"/>
+										</and>
+										<and abstract="true" name="A318">
+											<feature mandatory="true" name="C1033"/>
+											<feature name="C1034"/>
+											<feature name="C1035"/>
+											<feature name="C1036"/>
+											<feature mandatory="true" name="C1037"/>
+											<feature name="C1038"/>
+										</and>
+										<feature mandatory="true" name="C319"/>
+										<and abstract="true" name="A320">
+											<feature mandatory="true" name="C865"/>
+											<feature mandatory="true" name="C866"/>
+											<feature mandatory="true" name="C867"/>
+											<feature mandatory="true" name="C868"/>
+											<feature mandatory="true" name="C869"/>
+											<alt abstract="true" name="A870">
+												<feature mandatory="true" name="C1226"/>
+												<feature mandatory="true" name="C1227"/>
+												<feature mandatory="true" name="C1228"/>
+												<feature mandatory="true" name="C1229"/>
+												<feature mandatory="true" name="C1230"/>
+												<feature mandatory="true" name="C1231"/>
+											</alt>
+											<feature mandatory="true" name="C871"/>
+											<feature mandatory="true" name="C872"/>
+											<and abstract="true" mandatory="true" name="A873">
+												<feature mandatory="true" name="C1734"/>
+												<feature mandatory="true" name="C1735"/>
+												<feature mandatory="true" name="C1736"/>
+												<feature name="C1737"/>
+												<feature mandatory="true" name="C1738"/>
+												<feature name="C1739"/>
+											</and>
+										</and>
+										<and abstract="true" name="A321">
+											<feature mandatory="true" name="C934"/>
+											<feature name="C935"/>
+											<feature mandatory="true" name="C936"/>
+											<feature name="C937"/>
+											<feature mandatory="true" name="C938"/>
+											<feature name="C939"/>
+										</and>
+										<feature mandatory="true" name="C322"/>
+									</and>
+									<feature mandatory="true" name="C169"/>
+									<alt abstract="true" name="A170">
+										<alt abstract="true" mandatory="true" name="A308">
+											<feature mandatory="true" name="C546"/>
+											<feature mandatory="true" name="C547"/>
+										</alt>
+										<feature mandatory="true" name="C309"/>
+										<feature mandatory="true" name="C310"/>
+										<or abstract="true" mandatory="true" name="A311">
+											<feature mandatory="true" name="C717"/>
+											<feature mandatory="true" name="C718"/>
+											<feature mandatory="true" name="C719"/>
+											<feature mandatory="true" name="C720"/>
+											<feature mandatory="true" name="C721"/>
+											<feature mandatory="true" name="C722"/>
+											<feature mandatory="true" name="C723"/>
+											<feature mandatory="true" name="C724"/>
+											<alt abstract="true" mandatory="true" name="A725">
+												<and abstract="true" mandatory="true" name="A1057">
+													<feature mandatory="true" name="C1373"/>
+													<feature name="C1374"/>
+													<or abstract="true" mandatory="true" name="A1375">
+														<feature mandatory="true" name="C1717"/>
+														<feature mandatory="true" name="C1718"/>
+														<feature mandatory="true" name="C1719"/>
+														<feature mandatory="true" name="C1720"/>
+														<feature mandatory="true" name="C1721"/>
+														<feature mandatory="true" name="C1722"/>
+														<feature mandatory="true" name="C1723"/>
+														<feature mandatory="true" name="C1724"/>
+														<feature mandatory="true" name="C1725"/>
+														<feature mandatory="true" name="C1726"/>
+													</or>
+													<feature mandatory="true" name="C1376"/>
+													<feature name="C1377"/>
+												</and>
+												<feature mandatory="true" name="C1058"/>
+												<and abstract="true" mandatory="true" name="A1059">
+													<feature mandatory="true" name="C1572"/>
+													<feature mandatory="true" name="C1573"/>
+												</and>
+											</alt>
+										</or>
+										<and abstract="true" mandatory="true" name="A312">
+											<feature mandatory="true" name="C577"/>
+											<and abstract="true" mandatory="true" name="A578">
+												<or abstract="true" mandatory="true" name="A1191">
+													<feature mandatory="true" name="C1788"/>
+													<feature mandatory="true" name="C1789"/>
+													<feature mandatory="true" name="C1790"/>
+													<feature mandatory="true" name="C1791"/>
+													<feature mandatory="true" name="C1792"/>
+													<feature mandatory="true" name="C1793"/>
+													<feature mandatory="true" name="C1794"/>
+													<feature mandatory="true" name="C1795"/>
+													<feature mandatory="true" name="C1796"/>
+												</or>
+												<feature mandatory="true" name="C1192"/>
+												<feature mandatory="true" name="C1193"/>
+												<feature name="C1194"/>
+												<feature name="C1195"/>
+											</and>
+											<or abstract="true" name="A579">
+												<feature mandatory="true" name="C940"/>
+												<alt abstract="true" mandatory="true" name="A941">
+													<feature mandatory="true" name="C951"/>
+												</alt>
+												<and abstract="true" mandatory="true" name="A942">
+													<feature mandatory="true" name="C1091"/>
+													<feature name="C1092"/>
+													<feature name="C1093"/>
+													<feature mandatory="true" name="C1094"/>
+													<feature name="C1095"/>
+												</and>
+											</or>
+											<feature mandatory="true" name="C580"/>
+											<feature mandatory="true" name="C581"/>
+											<feature mandatory="true" name="C582"/>
+										</and>
+										<feature mandatory="true" name="C313"/>
+										<feature mandatory="true" name="C314"/>
+										<alt abstract="true" mandatory="true" name="A315">
+											<feature mandatory="true" name="C1406"/>
+											<feature mandatory="true" name="C1407"/>
+										</alt>
+										<or abstract="true" mandatory="true" name="A316">
+											<feature mandatory="true" name="C1434"/>
+											<feature mandatory="true" name="C1435"/>
+											<feature mandatory="true" name="C1436"/>
+											<feature mandatory="true" name="C1437"/>
+											<feature mandatory="true" name="C1438"/>
+											<feature mandatory="true" name="C1439"/>
+											<feature mandatory="true" name="C1440"/>
+											<feature mandatory="true" name="C1441"/>
+										</or>
+									</alt>
+									<feature mandatory="true" name="C171"/>
+								</and>
+							</and>
+							<feature mandatory="true" name="C52"/>
+							<alt abstract="true" mandatory="true" name="A53">
+								<feature mandatory="true" name="C1061"/>
+								<feature mandatory="true" name="C1062"/>
+								<feature mandatory="true" name="C1063"/>
+								<feature mandatory="true" name="C1064"/>
+							</alt>
+							<feature mandatory="true" name="C54"/>
+							<and abstract="true" mandatory="true" name="A55">
+								<feature mandatory="true" name="C932"/>
+								<feature mandatory="true" name="C933"/>
+							</and>
+							<feature mandatory="true" name="C56"/>
+							<feature mandatory="true" name="C57"/>
+							<or abstract="true" mandatory="true" name="A58">
+								<feature mandatory="true" name="C1260"/>
+								<or abstract="true" mandatory="true" name="A1261">
+									<feature mandatory="true" name="C1806"/>
+									<feature mandatory="true" name="C1807"/>
+									<feature mandatory="true" name="C1808"/>
+									<feature mandatory="true" name="C1809"/>
+									<feature mandatory="true" name="C1810"/>
+									<feature mandatory="true" name="C1811"/>
+									<feature mandatory="true" name="C1812"/>
+									<feature mandatory="true" name="C1813"/>
+								</or>
+								<feature mandatory="true" name="C1262"/>
+							</or>
+						</alt>
+						<and abstract="true" mandatory="true" name="A38">
+							<feature mandatory="true" name="C584"/>
+							<feature name="C585"/>
+							<feature name="C586"/>
+							<feature mandatory="true" name="C587"/>
+							<feature name="C588"/>
+							<feature name="C589"/>
+							<feature mandatory="true" name="C590"/>
+							<feature mandatory="true" name="C591"/>
+							<feature mandatory="true" name="C592"/>
+						</and>
+						<feature mandatory="true" name="C39"/>
+						<feature mandatory="true" name="C40"/>
+						<and abstract="true" mandatory="true" name="A41">
+							<feature mandatory="true" name="C1337"/>
+							<feature mandatory="true" name="C1338"/>
+							<feature mandatory="true" name="C1339"/>
+							<feature mandatory="true" name="C1340"/>
+						</and>
+						<feature mandatory="true" name="C42"/>
+						<alt abstract="true" mandatory="true" name="A43">
+							<alt abstract="true" mandatory="true" name="A64">
+								<or abstract="true" mandatory="true" name="A71">
+									<and abstract="true" mandatory="true" name="A370">
+										<feature mandatory="true" name="C562"/>
+										<feature name="C563"/>
+										<and abstract="true" mandatory="true" name="A564">
+											<feature mandatory="true" name="C569"/>
+											<feature name="C570"/>
+											<feature mandatory="true" name="C571"/>
+											<feature mandatory="true" name="C572"/>
+											<feature mandatory="true" name="C573"/>
+											<feature mandatory="true" name="C574"/>
+											<feature mandatory="true" name="C575"/>
+											<feature name="C576"/>
+										</and>
+										<feature mandatory="true" name="C565"/>
+										<feature name="C566"/>
+										<feature mandatory="true" name="C567"/>
+										<alt abstract="true" mandatory="true" name="A568">
+											<feature mandatory="true" name="C1469"/>
+											<feature mandatory="true" name="C1470"/>
+											<feature mandatory="true" name="C1471"/>
+											<feature mandatory="true" name="C1472"/>
+											<feature mandatory="true" name="C1473"/>
+											<feature mandatory="true" name="C1474"/>
+										</alt>
+									</and>
+									<feature mandatory="true" name="C371"/>
+									<feature mandatory="true" name="C372"/>
+									<and abstract="true" mandatory="true" name="A373">
+										<feature mandatory="true" name="C1329"/>
+										<feature name="C1330"/>
+										<feature mandatory="true" name="C1331"/>
+										<feature mandatory="true" name="C1332"/>
+										<feature name="C1333"/>
+										<and abstract="true" mandatory="true" name="A1334">
+											<feature mandatory="true" name="C1524"/>
+											<feature mandatory="true" name="C1525"/>
+											<feature mandatory="true" name="C1526"/>
+											<feature name="C1527"/>
+											<feature mandatory="true" name="C1528"/>
+											<feature name="C1529"/>
+											<feature mandatory="true" name="C1530"/>
+											<feature mandatory="true" name="C1531"/>
+											<feature mandatory="true" name="C1532"/>
+											<feature name="C1533"/>
+										</and>
+										<feature mandatory="true" name="C1335"/>
+										<feature name="C1336"/>
+									</and>
+									<and abstract="true" mandatory="true" name="A374">
+										<feature mandatory="true" name="C470"/>
+										<alt abstract="true" mandatory="true" name="A471">
+											<feature mandatory="true" name="C1133"/>
+											<feature mandatory="true" name="C1134"/>
+											<feature mandatory="true" name="C1135"/>
+											<feature mandatory="true" name="C1136"/>
+											<feature mandatory="true" name="C1137"/>
+											<feature mandatory="true" name="C1138"/>
+											<feature mandatory="true" name="C1139"/>
+											<feature mandatory="true" name="C1140"/>
+											<feature mandatory="true" name="C1141"/>
+											<feature mandatory="true" name="C1142"/>
+										</alt>
+										<and abstract="true" name="A472">
+											<feature mandatory="true" name="C1756"/>
+										</and>
+										<feature mandatory="true" name="C473"/>
+										<feature name="C474"/>
+										<feature name="C475"/>
+									</and>
+									<feature mandatory="true" name="C375"/>
+									<feature mandatory="true" name="C376"/>
+									<feature mandatory="true" name="C377"/>
+								</or>
+								<alt abstract="true" mandatory="true" name="A72">
+									<feature mandatory="true" name="C83"/>
+								</alt>
+								<or abstract="true" mandatory="true" name="A73">
+									<feature mandatory="true" name="C1497"/>
+									<and abstract="true" mandatory="true" name="A1498">
+										<feature mandatory="true" name="C1584"/>
+										<feature name="C1585"/>
+										<feature name="C1586"/>
+										<feature mandatory="true" name="C1587"/>
+									</and>
+								</or>
+								<feature mandatory="true" name="C74"/>
+								<feature mandatory="true" name="C75"/>
+							</alt>
+							<feature mandatory="true" name="C65"/>
+						</alt>
+					</or>
+					<and abstract="true" mandatory="true" name="A35">
+						<feature mandatory="true" name="C1160"/>
+						<feature name="C1161"/>
+						<feature mandatory="true" name="C1162"/>
+						<alt abstract="true" mandatory="true" name="A1163">
+							<feature mandatory="true" name="C1168"/>
+							<feature mandatory="true" name="C1169"/>
+							<feature mandatory="true" name="C1170"/>
+							<and abstract="true" mandatory="true" name="A1171">
+								<feature mandatory="true" name="C1948"/>
+								<feature mandatory="true" name="C1949"/>
+								<feature mandatory="true" name="C1950"/>
+								<feature name="C1951"/>
+								<feature mandatory="true" name="C1952"/>
+							</and>
+							<feature mandatory="true" name="C1172"/>
+						</alt>
+						<feature name="C1164"/>
+						<feature mandatory="true" name="C1165"/>
+						<feature mandatory="true" name="C1166"/>
+						<feature name="C1167"/>
+					</and>
+				</or>
+			</and>
+		</struct>
+		<constraints>
+			<rule>
+				<disj>
+					<imp>
+						<imp>
+							<not>
+								<var>C92</var>
+							</not>
+							<not>
+								<var>A127</var>
+							</not>
+						</imp>
+						<not>
+							<var>C945</var>
+						</not>
+					</imp>
+					<not>
+						<var>C1567</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<var>A634</var>
+						<var>C658</var>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<imp>
+					<conj>
+						<not>
+							<disj>
+								<not>
+									<var>C956</var>
+								</not>
+								<var>C1631</var>
+							</disj>
+						</not>
+						<not>
+							<var>C1471</var>
+						</not>
+					</conj>
+					<var>A289</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<eq>
+						<var>C1754</var>
+						<not>
+							<var>C685</var>
+						</not>
+					</eq>
+					<var>C1233</var>
+				</imp>
+			</rule>
+			<rule>
+				<conj>
+					<var>C1756</var>
+					<var>C84</var>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<eq>
+						<not>
+							<disj>
+								<not>
+									<var>C661</var>
+								</not>
+								<not>
+									<var>C1378</var>
+								</not>
+							</disj>
+						</not>
+						<var>C531</var>
+					</eq>
+					<not>
+						<var>A320</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>C1501</var>
+					<var>C1320</var>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<imp>
+							<imp>
+								<eq>
+									<not>
+										<var>A599</var>
+									</not>
+									<not>
+										<var>C1981</var>
+									</not>
+								</eq>
+								<var>C624</var>
+							</imp>
+							<not>
+								<var>C1291</var>
+							</not>
+						</imp>
+						<not>
+							<var>A185</var>
+						</not>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<imp>
+					<conj>
+						<not>
+							<disj>
+								<eq>
+									<not>
+										<var>C1364</var>
+									</not>
+									<not>
+										<var>C1154</var>
+									</not>
+								</eq>
+								<var>A305</var>
+							</disj>
+						</not>
+						<var>C1849</var>
+					</conj>
+					<var>C723</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<conj>
+						<imp>
+							<imp>
+								<var>C857</var>
+								<not>
+									<var>A499</var>
+								</not>
+							</imp>
+							<var>C285</var>
+						</imp>
+						<not>
+							<var>C1193</var>
+						</not>
+					</conj>
+					<not>
+						<var>C94</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<var>C114</var>
+					</not>
+					<not>
+						<var>A24</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>C1668</var>
+					</not>
+					<not>
+						<var>C1310</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<not>
+							<conj>
+								<not>
+									<var>C1884</var>
+								</not>
+								<not>
+									<var>A637</var>
+								</not>
+							</conj>
+						</not>
+						<var>C1530</var>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<conj>
+							<var>C256</var>
+							<var>C1221</var>
+						</conj>
+						<var>C828</var>
+					</disj>
+					<var>C47</var>
+				</conj>
+			</rule>
+			<rule>
+				<eq>
+					<conj>
+						<disj>
+							<not>
+								<var>C422</var>
+							</not>
+							<var>C1496</var>
+						</disj>
+						<var>C1868</var>
+					</conj>
+					<var>C1031</var>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<var>C310</var>
+					</not>
+					<var>A7</var>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<var>C302</var>
+					</not>
+					<not>
+						<var>A492</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<conj>
+					<eq>
+						<not>
+							<imp>
+								<not>
+									<var>C1943</var>
+								</not>
+								<var>C1830</var>
+							</imp>
+						</not>
+						<var>A219</var>
+					</eq>
+					<var>C1843</var>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<imp>
+							<disj>
+								<not>
+									<var>A777</var>
+								</not>
+								<var>C663</var>
+							</disj>
+							<var>A578</var>
+						</imp>
+					</not>
+					<var>C1981</var>
+				</imp>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<eq>
+							<disj>
+								<not>
+									<imp>
+										<not>
+											<var>C1380</var>
+										</not>
+										<not>
+											<var>C1698</var>
+										</not>
+									</imp>
+								</not>
+								<not>
+									<var>C850</var>
+								</not>
+							</disj>
+							<not>
+								<var>C1858</var>
+							</not>
+						</eq>
+					</not>
+					<not>
+						<var>C1774</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<var>C589</var>
+					<var>A7</var>
+				</imp>
+			</rule>
+			<rule>
+				<eq>
+					<disj>
+						<not>
+							<eq>
+								<var>C1379</var>
+								<var>C1400</var>
+							</eq>
+						</not>
+						<not>
+							<var>C1434</var>
+						</not>
+					</disj>
+					<eq>
+						<var>C1457</var>
+						<not>
+							<var>C166</var>
+						</not>
+					</eq>
+				</eq>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<eq>
+							<imp>
+								<not>
+									<var>C28</var>
+								</not>
+								<not>
+									<var>C1492</var>
+								</not>
+							</imp>
+							<not>
+								<var>A445</var>
+							</not>
+						</eq>
+						<var>C1781</var>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<conj>
+						<not>
+							<var>C922</var>
+						</not>
+						<var>C328</var>
+					</conj>
+					<not>
+						<var>C346</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<disj>
+							<var>C693</var>
+							<not>
+								<var>C1383</var>
+							</not>
+						</disj>
+					</not>
+					<not>
+						<var>C407</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<not>
+							<conj>
+								<var>C771</var>
+								<not>
+									<var>C1999</var>
+								</not>
+							</conj>
+						</not>
+						<var>C416</var>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<imp>
+						<var>A44</var>
+						<not>
+							<var>C890</var>
+						</not>
+					</imp>
+					<not>
+						<var>A1174</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>C707</var>
+					</not>
+					<disj>
+						<not>
+							<var>C1642</var>
+						</not>
+						<not>
+							<var>C154</var>
+						</not>
+					</disj>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<eq>
+							<conj>
+								<var>C1697</var>
+								<var>C95</var>
+							</conj>
+							<var>C1362</var>
+						</eq>
+					</not>
+					<not>
+						<var>C1359</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<conj>
+					<imp>
+						<var>C1664</var>
+						<var>C1434</var>
+					</imp>
+					<var>C1563</var>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<var>C1880</var>
+					<not>
+						<var>C1453</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<conj>
+					<var>C281</var>
+					<var>C1322</var>
+				</conj>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<imp>
+							<disj>
+								<var>A919</var>
+								<var>C1629</var>
+							</disj>
+							<var>C1772</var>
+						</imp>
+					</not>
+					<var>A225</var>
+				</conj>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<var>C1295</var>
+					</not>
+					<var>C1324</var>
+				</eq>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<imp>
+							<var>C1798</var>
+							<not>
+								<var>C1518</var>
+							</not>
+						</imp>
+						<not>
+							<var>C435</var>
+						</not>
+					</disj>
+					<not>
+						<var>C1936</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<imp>
+						<conj>
+							<eq>
+								<not>
+									<var>A226</var>
+								</not>
+								<not>
+									<var>C451</var>
+								</not>
+							</eq>
+							<not>
+								<var>C1587</var>
+							</not>
+						</conj>
+						<not>
+							<var>C1660</var>
+						</not>
+					</imp>
+					<not>
+						<var>C990</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<conj>
+							<not>
+								<imp>
+									<not>
+										<conj>
+											<var>C1694</var>
+											<not>
+												<var>C255</var>
+											</not>
+										</conj>
+									</not>
+									<not>
+										<var>C1023</var>
+									</not>
+								</imp>
+							</not>
+							<not>
+								<var>C105</var>
+							</not>
+						</conj>
+						<var>C1088</var>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<var>C1237</var>
+						<var>A235</var>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<not>
+							<var>C1552</var>
+						</not>
+						<var>C1447</var>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<var>A947</var>
+					</not>
+					<eq>
+						<var>C1417</var>
+						<not>
+							<var>C1040</var>
+						</not>
+					</eq>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<disj>
+						<imp>
+							<var>C303</var>
+							<var>C1762</var>
+						</imp>
+						<not>
+							<var>C1155</var>
+						</not>
+					</disj>
+					<not>
+						<var>C1497</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<disj>
+					<eq>
+						<not>
+							<eq>
+								<var>A275</var>
+								<var>A299</var>
+							</eq>
+						</not>
+						<var>C227</var>
+					</eq>
+					<not>
+						<var>C1783</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<eq>
+						<not>
+							<var>C148</var>
+						</not>
+						<not>
+							<var>A258</var>
+						</not>
+					</eq>
+					<not>
+						<var>C1714</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<imp>
+							<var>C1103</var>
+							<not>
+								<var>C1339</var>
+							</not>
+						</imp>
+						<not>
+							<var>C1155</var>
+						</not>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<var>C1212</var>
+					<var>C1340</var>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<disj>
+						<not>
+							<disj>
+								<var>A126</var>
+								<disj>
+									<var>C1346</var>
+									<not>
+										<var>A682</var>
+									</not>
+								</disj>
+							</disj>
+						</not>
+						<var>C1700</var>
+					</disj>
+					<var>C1216</var>
+				</imp>
+			</rule>
+			<rule>
+				<eq>
+					<var>C264</var>
+					<not>
+						<var>C1002</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<disj>
+					<conj>
+						<not>
+							<var>C1639</var>
+						</not>
+						<not>
+							<var>C1106</var>
+						</not>
+					</conj>
+					<not>
+						<var>C740</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<var>A554</var>
+						<not>
+							<var>A1265</var>
+						</not>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<conj>
+						<not>
+							<var>C754</var>
+						</not>
+						<not>
+							<var>C1532</var>
+						</not>
+					</conj>
+					<not>
+						<var>A410</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<conj>
+							<not>
+								<var>C778</var>
+							</not>
+							<conj>
+								<not>
+									<var>A599</var>
+								</not>
+								<not>
+									<var>A611</var>
+								</not>
+							</conj>
+						</conj>
+					</not>
+					<eq>
+						<var>A1111</var>
+						<var>A91</var>
+					</eq>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<imp>
+						<eq>
+							<not>
+								<var>C1440</var>
+							</not>
+							<not>
+								<var>A499</var>
+							</not>
+						</eq>
+						<not>
+							<var>C1583</var>
+						</not>
+					</imp>
+					<var>C293</var>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<disj>
+						<not>
+							<var>C386</var>
+						</not>
+						<not>
+							<var>A99</var>
+						</not>
+					</disj>
+					<var>C1072</var>
+				</eq>
+			</rule>
+			<rule>
+				<disj>
+					<conj>
+						<eq>
+							<not>
+								<var>C1902</var>
+							</not>
+							<eq>
+								<not>
+									<var>A135</var>
+								</not>
+								<not>
+									<var>C1138</var>
+								</not>
+							</eq>
+						</eq>
+						<var>C1850</var>
+					</conj>
+					<not>
+						<var>C1593</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>C1919</var>
+					</not>
+					<not>
+						<var>C1070</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<disj>
+							<var>C1028</var>
+							<not>
+								<var>C526</var>
+							</not>
+						</disj>
+					</not>
+					<not>
+						<var>C1170</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<not>
+							<imp>
+								<eq>
+									<not>
+										<imp>
+											<not>
+												<var>C438</var>
+											</not>
+											<var>A215</var>
+										</imp>
+									</not>
+									<var>C732</var>
+								</eq>
+								<var>C186</var>
+							</imp>
+						</not>
+						<var>C583</var>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<conj>
+							<var>C178</var>
+							<var>C1617</var>
+						</conj>
+						<not>
+							<var>C329</var>
+						</not>
+					</imp>
+					<disj>
+						<var>A1182</var>
+						<not>
+							<var>A1013</var>
+						</not>
+					</disj>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>A492</var>
+					</not>
+					<disj>
+						<not>
+							<var>C1412</var>
+						</not>
+						<var>C1400</var>
+					</disj>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<var>C1770</var>
+						<eq>
+							<var>C1142</var>
+							<not>
+								<var>C1209</var>
+							</not>
+						</eq>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<var>C1492</var>
+						<var>A369</var>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<eq>
+							<not>
+								<var>C1946</var>
+							</not>
+							<var>A1652</var>
+						</eq>
+					</not>
+					<not>
+						<var>C1090</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<eq>
+					<var>C186</var>
+					<not>
+						<var>C1629</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<eq>
+						<not>
+							<var>C1562</var>
+						</not>
+						<not>
+							<var>C1456</var>
+						</not>
+					</eq>
+					<var>C690</var>
+				</imp>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<disj>
+							<var>A21</var>
+							<disj>
+								<not>
+									<var>C642</var>
+								</not>
+								<disj>
+									<var>C1745</var>
+									<var>C1091</var>
+								</disj>
+							</disj>
+						</disj>
+					</not>
+					<var>C1690</var>
+				</disj>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<not>
+							<var>C1450</var>
+						</not>
+						<var>C676</var>
+					</disj>
+					<not>
+						<var>C1752</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<disj>
+					<var>C1266</var>
+					<not>
+						<var>C1499</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<conj>
+					<eq>
+						<imp>
+							<var>C1143</var>
+							<not>
+								<var>A195</var>
+							</not>
+						</imp>
+						<var>C1727</var>
+					</eq>
+					<not>
+						<var>C1888</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<disj>
+							<not>
+								<var>C1666</var>
+							</not>
+							<disj>
+								<var>C1625</var>
+								<disj>
+									<not>
+										<var>C577</var>
+									</not>
+									<not>
+										<var>C1834</var>
+									</not>
+								</disj>
+							</disj>
+						</disj>
+					</not>
+					<not>
+						<var>A557</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<var>C1711</var>
+					</not>
+					<not>
+						<var>C1596</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<disj>
+					<eq>
+						<conj>
+							<var>A393</var>
+							<not>
+								<var>C403</var>
+							</not>
+						</conj>
+						<not>
+							<var>C1357</var>
+						</not>
+					</eq>
+					<disj>
+						<var>C1703</var>
+						<not>
+							<var>C266</var>
+						</not>
+					</disj>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<conj>
+							<eq>
+								<not>
+									<var>C1088</var>
+								</not>
+								<var>C432</var>
+							</eq>
+							<not>
+								<var>C855</var>
+							</not>
+						</conj>
+					</not>
+					<disj>
+						<not>
+							<var>C1523</var>
+						</not>
+						<var>C591</var>
+					</disj>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<imp>
+							<conj>
+								<not>
+									<var>C567</var>
+								</not>
+								<var>C1371</var>
+							</conj>
+							<not>
+								<var>A1066</var>
+							</not>
+						</imp>
+						<eq>
+							<var>C1417</var>
+							<not>
+								<var>C1885</var>
+							</not>
+						</eq>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<imp>
+					<conj>
+						<eq>
+							<not>
+								<var>C1145</var>
+							</not>
+							<var>C1281</var>
+						</eq>
+						<var>C1280</var>
+					</conj>
+					<not>
+						<var>A522</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<imp>
+							<var>A323</var>
+							<var>A599</var>
+						</imp>
+						<var>C1991</var>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<not>
+							<var>C476</var>
+						</not>
+						<not>
+							<var>A839</var>
+						</not>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<not>
+							<var>C1269</var>
+						</not>
+						<var>C1773</var>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<not>
+							<var>C1170</var>
+						</not>
+						<not>
+							<var>C903</var>
+						</not>
+					</disj>
+					<var>C1546</var>
+				</conj>
+			</rule>
+			<rule>
+				<eq>
+					<var>C940</var>
+					<not>
+						<var>C265</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<conj>
+					<eq>
+						<var>C1337</var>
+						<not>
+							<var>C865</var>
+						</not>
+					</eq>
+					<not>
+						<var>C1052</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<conj>
+					<imp>
+						<eq>
+							<var>A363</var>
+							<var>C719</var>
+						</eq>
+						<not>
+							<var>A458</var>
+						</not>
+					</imp>
+					<var>C243</var>
+				</conj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<conj>
+							<var>C770</var>
+							<not>
+								<var>C1467</var>
+							</not>
+						</conj>
+					</not>
+					<not>
+						<var>C976</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<imp>
+						<imp>
+							<not>
+								<disj>
+									<conj>
+										<var>C1696</var>
+										<not>
+											<var>C2000</var>
+										</not>
+									</conj>
+									<not>
+										<var>C1624</var>
+									</not>
+								</disj>
+							</not>
+							<var>C1702</var>
+						</imp>
+						<not>
+							<var>C1102</var>
+						</not>
+					</imp>
+				</not>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<imp>
+							<not>
+								<imp>
+									<var>A623</var>
+									<not>
+										<var>A34</var>
+									</not>
+								</imp>
+							</not>
+							<not>
+								<var>C1689</var>
+							</not>
+						</imp>
+					</not>
+					<var>C1106</var>
+				</imp>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<disj>
+							<conj>
+								<var>A1498</var>
+								<not>
+									<var>C1820</var>
+								</not>
+							</conj>
+							<var>C1198</var>
+						</disj>
+						<var>A357</var>
+					</imp>
+					<var>C1654</var>
+				</disj>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<imp>
+							<disj>
+								<eq>
+									<var>C745</var>
+									<not>
+										<var>C1047</var>
+									</not>
+								</eq>
+								<var>C708</var>
+							</disj>
+							<var>A189</var>
+						</imp>
+					</not>
+					<var>C1687</var>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<conj>
+						<not>
+							<var>C1850</var>
+						</not>
+						<not>
+							<var>C1248</var>
+						</not>
+					</conj>
+					<var>C1431</var>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<imp>
+						<not>
+							<imp>
+								<not>
+									<var>C405</var>
+								</not>
+								<var>C1997</var>
+							</imp>
+						</not>
+						<not>
+							<var>C1402</var>
+						</not>
+					</imp>
+				</not>
+			</rule>
+			<rule>
+				<conj>
+					<var>C1247</var>
+					<not>
+						<var>C1722</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<not>
+							<imp>
+								<conj>
+									<imp>
+										<var>A71</var>
+										<var>C585</var>
+									</imp>
+									<not>
+										<var>A9</var>
+									</not>
+								</conj>
+								<not>
+									<var>A101</var>
+								</not>
+							</imp>
+						</not>
+						<not>
+							<var>C1198</var>
+						</not>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<disj>
+							<eq>
+								<var>C279</var>
+								<not>
+									<var>C612</var>
+								</not>
+							</eq>
+							<var>C1595</var>
+						</disj>
+						<var>C1102</var>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<eq>
+						<conj>
+							<not>
+								<var>C1547</var>
+							</not>
+							<var>C1534</var>
+						</conj>
+						<eq>
+							<var>C900</var>
+							<var>C1549</var>
+						</eq>
+					</eq>
+					<var>C1259</var>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<not>
+							<eq>
+								<not>
+									<imp>
+										<var>C1518</var>
+										<not>
+											<var>C848</var>
+										</not>
+									</imp>
+								</not>
+								<not>
+									<var>C1415</var>
+								</not>
+							</eq>
+						</not>
+						<var>C790</var>
+					</imp>
+					<not>
+						<var>C1983</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<conj>
+							<not>
+								<var>C1956</var>
+							</not>
+							<not>
+								<var>C1433</var>
+							</not>
+						</conj>
+						<not>
+							<var>A472</var>
+						</not>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<not>
+							<imp>
+								<var>A91</var>
+								<not>
+									<var>C1006</var>
+								</not>
+							</imp>
+						</not>
+						<var>C1268</var>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<conj>
+					<eq>
+						<var>C1958</var>
+						<not>
+							<var>C193</var>
+						</not>
+					</eq>
+					<var>C664</var>
+				</conj>
+			</rule>
+			<rule>
+				<conj>
+					<var>A200</var>
+					<var>C843</var>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<disj>
+						<var>A1057</var>
+						<var>C1934</var>
+					</disj>
+					<not>
+						<var>C1711</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<not>
+							<var>C607</var>
+						</not>
+						<not>
+							<var>C310</var>
+						</not>
+					</disj>
+					<conj>
+						<var>C379</var>
+						<not>
+							<var>C1270</var>
+						</not>
+					</conj>
+				</conj>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<conj>
+							<not>
+								<var>C325</var>
+							</not>
+							<var>C576</var>
+						</conj>
+						<disj>
+							<var>C734</var>
+							<var>C1729</var>
+						</disj>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<eq>
+						<not>
+							<var>A115</var>
+						</not>
+						<eq>
+							<var>C237</var>
+							<var>C1054</var>
+						</eq>
+					</eq>
+					<not>
+						<var>A5</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<imp>
+						<imp>
+							<not>
+								<var>A483</var>
+							</not>
+							<not>
+								<var>C423</var>
+							</not>
+						</imp>
+						<not>
+							<var>C1729</var>
+						</not>
+					</imp>
+					<not>
+						<var>C1292</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<not>
+							<conj>
+								<not>
+									<var>C1905</var>
+								</not>
+								<var>C463</var>
+							</conj>
+						</not>
+						<not>
+							<var>A141</var>
+						</not>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<disj>
+						<imp>
+							<var>C228</var>
+							<var>C1003</var>
+						</imp>
+						<not>
+							<var>A468</var>
+						</not>
+					</disj>
+					<not>
+						<var>A673</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<not>
+							<imp>
+								<eq>
+									<imp>
+										<var>A307</var>
+										<not>
+											<var>C193</var>
+										</not>
+									</imp>
+									<var>C1108</var>
+								</eq>
+								<not>
+									<var>C921</var>
+								</not>
+							</imp>
+						</not>
+						<not>
+							<var>C300</var>
+						</not>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<imp>
+							<var>C1544</var>
+							<var>C437</var>
+						</imp>
+					</not>
+					<var>C97</var>
+				</eq>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<var>C80</var>
+						<not>
+							<var>C765</var>
+						</not>
+					</imp>
+					<not>
+						<var>C1473</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<var>C1636</var>
+						<var>C940</var>
+					</imp>
+					<var>C1251</var>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<var>C470</var>
+					</not>
+					<not>
+						<var>C197</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<imp>
+							<var>C1379</var>
+							<var>C548</var>
+						</imp>
+						<conj>
+							<not>
+								<var>C1474</var>
+							</not>
+							<conj>
+								<var>C1378</var>
+								<var>C404</var>
+							</conj>
+						</conj>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<imp>
+							<var>C1456</var>
+							<not>
+								<var>C300</var>
+							</not>
+						</imp>
+						<var>C406</var>
+					</imp>
+					<disj>
+						<var>C1536</var>
+						<var>C1599</var>
+					</disj>
+				</disj>
+			</rule>
+			<rule>
+				<eq>
+					<var>C403</var>
+					<var>A61</var>
+				</eq>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>C731</var>
+					</not>
+					<var>C1143</var>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<conj>
+							<not>
+								<var>A625</var>
+							</not>
+							<not>
+								<var>C545</var>
+							</not>
+						</conj>
+						<not>
+							<var>A136</var>
+						</not>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<conj>
+					<var>C1283</var>
+					<var>C1412</var>
+				</conj>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<conj>
+							<disj>
+								<not>
+									<var>C1196</var>
+								</not>
+								<not>
+									<var>C1127</var>
+								</not>
+							</disj>
+							<var>C442</var>
+						</conj>
+						<not>
+							<var>C280</var>
+						</not>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<imp>
+							<conj>
+								<var>C775</var>
+								<not>
+									<var>C1670</var>
+								</not>
+							</conj>
+							<var>C377</var>
+						</imp>
+					</not>
+					<conj>
+						<not>
+							<var>C1428</var>
+						</not>
+						<not>
+							<var>C794</var>
+						</not>
+					</conj>
+				</conj>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<eq>
+							<imp>
+								<conj>
+									<not>
+										<var>C835</var>
+									</not>
+									<var>C338</var>
+								</conj>
+								<var>C923</var>
+							</imp>
+							<not>
+								<var>C448</var>
+							</not>
+						</eq>
+						<not>
+							<var>A1657</var>
+						</not>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<var>C1469</var>
+					<not>
+						<var>C860</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<imp>
+							<conj>
+								<not>
+									<var>C1710</var>
+								</not>
+								<var>C399</var>
+							</conj>
+							<not>
+								<var>C1771</var>
+							</not>
+						</imp>
+						<var>C1137</var>
+					</disj>
+					<not>
+						<var>C1277</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>C915</var>
+					</not>
+					<var>C951</var>
+				</disj>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<imp>
+							<not>
+								<var>C992</var>
+							</not>
+							<not>
+								<var>C1319</var>
+							</not>
+						</imp>
+					</not>
+					<var>A1110</var>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<var>C1268</var>
+					</not>
+					<not>
+						<var>C695</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<imp>
+							<not>
+								<conj>
+									<not>
+										<var>C1603</var>
+									</not>
+									<conj>
+										<not>
+											<var>C1446</var>
+										</not>
+										<not>
+											<var>C1382</var>
+										</not>
+									</conj>
+								</conj>
+							</not>
+							<not>
+								<var>A532</var>
+							</not>
+						</imp>
+					</not>
+					<var>C1202</var>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<var>A91</var>
+						<var>C1724</var>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<disj>
+							<not>
+								<eq>
+									<var>C294</var>
+									<var>C1958</var>
+								</eq>
+							</not>
+							<not>
+								<var>C1132</var>
+							</not>
+						</disj>
+					</not>
+					<var>C92</var>
+				</conj>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<not>
+							<imp>
+								<conj>
+									<imp>
+										<not>
+											<var>C571</var>
+										</not>
+										<var>C1687</var>
+									</imp>
+									<not>
+										<var>C667</var>
+									</not>
+								</conj>
+								<var>C1455</var>
+							</imp>
+						</not>
+						<not>
+							<var>C547</var>
+						</not>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<imp>
+							<eq>
+								<var>C1468</var>
+								<var>C876</var>
+							</eq>
+							<not>
+								<var>C631</var>
+							</not>
+						</imp>
+					</not>
+					<var>C1976</var>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<eq>
+						<disj>
+							<var>C300</var>
+							<var>A1232</var>
+						</disj>
+						<not>
+							<var>A428</var>
+						</not>
+					</eq>
+					<disj>
+						<not>
+							<var>C1735</var>
+						</not>
+						<var>C1638</var>
+					</disj>
+				</disj>
+			</rule>
+			<rule>
+				<conj>
+					<imp>
+						<imp>
+							<disj>
+								<var>C1878</var>
+								<var>A282</var>
+							</disj>
+							<not>
+								<var>C1563</var>
+							</not>
+						</imp>
+						<var>C1231</var>
+					</imp>
+					<var>C110</var>
+				</conj>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<disj>
+							<not>
+								<var>C1271</var>
+							</not>
+							<not>
+								<var>C1383</var>
+							</not>
+						</disj>
+					</not>
+					<eq>
+						<not>
+							<var>C1500</var>
+						</not>
+						<not>
+							<var>C664</var>
+						</not>
+					</eq>
+				</eq>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<disj>
+							<conj>
+								<var>A200</var>
+								<var>C1436</var>
+							</conj>
+							<disj>
+								<not>
+									<var>A286</var>
+								</not>
+								<var>C292</var>
+							</disj>
+						</disj>
+						<not>
+							<var>C857</var>
+						</not>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>C387</var>
+					</not>
+					<not>
+						<var>A348</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<eq>
+						<conj>
+							<imp>
+								<not>
+									<var>C1722</var>
+								</not>
+								<not>
+									<var>A331</var>
+								</not>
+							</imp>
+							<var>A608</var>
+						</conj>
+						<var>C390</var>
+					</eq>
+					<var>C514</var>
+				</imp>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<disj>
+							<not>
+								<eq>
+									<not>
+										<disj>
+											<not>
+												<var>C1056</var>
+											</not>
+											<var>C1205</var>
+										</disj>
+									</not>
+									<not>
+										<var>C1411</var>
+									</not>
+								</eq>
+							</not>
+							<var>C1084</var>
+						</disj>
+					</not>
+					<not>
+						<var>C841</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<disj>
+							<var>A235</var>
+							<var>A557</var>
+						</disj>
+						<not>
+							<var>C1482</var>
+						</not>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<conj>
+						<imp>
+							<not>
+								<var>C197</var>
+							</not>
+							<not>
+								<var>C1907</var>
+							</not>
+						</imp>
+						<not>
+							<var>C1478</var>
+						</not>
+					</conj>
+					<eq>
+						<not>
+							<var>C1062</var>
+						</not>
+						<not>
+							<var>C1195</var>
+						</not>
+					</eq>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<imp>
+						<not>
+							<var>C1025</var>
+						</not>
+						<var>C234</var>
+					</imp>
+					<var>C1626</var>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<var>C547</var>
+						<not>
+							<var>C1930</var>
+						</not>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<var>C927</var>
+					</not>
+					<var>A43</var>
+				</imp>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<imp>
+							<eq>
+								<not>
+									<var>C1797</var>
+								</not>
+								<not>
+									<var>C377</var>
+								</not>
+							</eq>
+							<var>C693</var>
+						</imp>
+						<not>
+							<var>C1625</var>
+						</not>
+					</disj>
+					<var>C1481</var>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<var>C1374</var>
+					</not>
+					<not>
+						<var>C1210</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<conj>
+							<var>A235</var>
+							<conj>
+								<var>C151</var>
+								<var>C1893</var>
+							</conj>
+						</conj>
+					</not>
+					<not>
+						<var>A163</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<disj>
+						<not>
+							<var>A523</var>
+						</not>
+						<not>
+							<var>C1552</var>
+						</not>
+					</disj>
+					<var>C894</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<disj>
+							<conj>
+								<imp>
+									<not>
+										<var>C1149</var>
+									</not>
+									<var>C1744</var>
+								</imp>
+								<var>C574</var>
+							</conj>
+							<not>
+								<var>C447</var>
+							</not>
+						</disj>
+					</not>
+					<var>C1551</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<imp>
+						<conj>
+							<var>C461</var>
+							<var>C1623</var>
+						</conj>
+						<not>
+							<var>C660</var>
+						</not>
+					</imp>
+					<var>A304</var>
+				</imp>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<not>
+							<var>A457</var>
+						</not>
+						<not>
+							<var>C793</var>
+						</not>
+					</disj>
+					<var>C679</var>
+				</conj>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<eq>
+							<imp>
+								<var>C1064</var>
+								<var>C618</var>
+							</imp>
+							<not>
+								<var>C620</var>
+							</not>
+						</eq>
+					</not>
+					<var>C1564</var>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<imp>
+							<not>
+								<conj>
+									<not>
+										<conj>
+											<var>C1638</var>
+											<var>C1179</var>
+										</conj>
+									</not>
+									<var>C1544</var>
+								</conj>
+							</not>
+							<var>A568</var>
+						</imp>
+					</not>
+					<not>
+						<var>C1100</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<eq>
+					<disj>
+						<eq>
+							<var>C720</var>
+							<var>C1649</var>
+						</eq>
+						<disj>
+							<var>C52</var>
+							<var>A111</var>
+						</disj>
+					</disj>
+					<not>
+						<var>C1990</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<eq>
+							<not>
+								<var>A498</var>
+							</not>
+							<not>
+								<var>C263</var>
+							</not>
+						</eq>
+						<not>
+							<var>C1847</var>
+						</not>
+					</imp>
+					<not>
+						<var>C807</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<conj>
+							<not>
+								<conj>
+									<not>
+										<var>C480</var>
+									</not>
+									<var>C1969</var>
+								</conj>
+							</not>
+							<not>
+								<var>C1368</var>
+							</not>
+						</conj>
+						<eq>
+							<not>
+								<var>A1007</var>
+							</not>
+							<not>
+								<var>C1390</var>
+							</not>
+						</eq>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<conj>
+							<imp>
+								<var>C1787</var>
+								<var>C1391</var>
+							</imp>
+							<not>
+								<var>A1392</var>
+							</not>
+						</conj>
+					</not>
+					<not>
+						<var>C1795</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<eq>
+					<conj>
+						<var>C1946</var>
+						<var>A1117</var>
+					</conj>
+					<not>
+						<var>A172</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<var>C1101</var>
+						<not>
+							<var>C646</var>
+						</not>
+					</imp>
+					<var>C1018</var>
+				</disj>
+			</rule>
+			<rule>
+				<eq>
+					<disj>
+						<not>
+							<eq>
+								<var>C1766</var>
+								<var>C703</var>
+							</eq>
+						</not>
+						<var>C1388</var>
+					</disj>
+					<not>
+						<var>C395</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<eq>
+						<conj>
+							<var>A1389</var>
+							<not>
+								<var>C123</var>
+							</not>
+						</conj>
+						<not>
+							<var>C1842</var>
+						</not>
+					</eq>
+					<not>
+						<var>A884</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<disj>
+						<conj>
+							<eq>
+								<var>A326</var>
+								<var>A942</var>
+							</eq>
+							<conj>
+								<var>C1101</var>
+								<var>C1495</var>
+							</conj>
+						</conj>
+						<var>A66</var>
+					</disj>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<imp>
+						<not>
+							<var>C133</var>
+						</not>
+						<var>C825</var>
+					</imp>
+				</not>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<imp>
+							<imp>
+								<not>
+									<var>C63</var>
+								</not>
+								<var>A506</var>
+							</imp>
+							<var>C805</var>
+						</imp>
+					</not>
+					<not>
+						<var>C1904</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>C1304</var>
+					</not>
+					<not>
+						<var>A578</var>
+					</not>
+				</disj>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<conj>
+							<not>
+								<var>A1239</var>
+							</not>
+							<var>C880</var>
+						</conj>
+						<not>
+							<var>A106</var>
+						</not>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<conj>
+						<eq>
+							<var>C1714</var>
+							<not>
+								<var>C1995</var>
+							</not>
+						</eq>
+						<not>
+							<var>C1494</var>
+						</not>
+					</conj>
+					<var>C844</var>
+				</eq>
+			</rule>
+			<rule>
+				<conj>
+					<var>C265</var>
+					<conj>
+						<var>C1644</var>
+						<not>
+							<var>C1211</var>
+						</not>
+					</conj>
+				</conj>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<var>C1895</var>
+						<var>C1667</var>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<var>C944</var>
+					<var>C1517</var>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<conj>
+						<var>C801</var>
+						<not>
+							<var>C584</var>
+						</not>
+					</conj>
+					<var>C739</var>
+				</imp>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<var>C1950</var>
+					</not>
+					<var>C1187</var>
+				</eq>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<var>A299</var>
+					</not>
+					<not>
+						<var>A21</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<conj>
+						<not>
+							<var>C1932</var>
+						</not>
+						<not>
+							<var>C1043</var>
+						</not>
+					</conj>
+					<var>C1554</var>
+				</imp>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<var>C1717</var>
+						<not>
+							<var>A536</var>
+						</not>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<eq>
+							<not>
+								<var>C788</var>
+							</not>
+							<eq>
+								<not>
+									<var>A1753</var>
+								</not>
+								<var>C991</var>
+							</eq>
+						</eq>
+						<var>C290</var>
+					</imp>
+					<var>A523</var>
+				</disj>
+			</rule>
+			<rule>
+				<conj>
+					<imp>
+						<not>
+							<eq>
+								<var>C559</var>
+								<not>
+									<var>A472</var>
+								</not>
+							</eq>
+						</not>
+						<var>C1419</var>
+					</imp>
+					<not>
+						<var>C1041</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<not>
+							<conj>
+								<not>
+									<var>A634</var>
+								</not>
+								<var>C1884</var>
+							</conj>
+						</not>
+						<var>C180</var>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<var>C1231</var>
+					</not>
+					<var>C1564</var>
+				</eq>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<var>C121</var>
+					</not>
+					<not>
+						<var>A1657</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<var>C433</var>
+					<not>
+						<var>C621</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<disj>
+					<conj>
+						<imp>
+							<not>
+								<conj>
+									<var>C1768</var>
+									<not>
+										<var>C1770</var>
+									</not>
+								</conj>
+							</not>
+							<var>C1185</var>
+						</imp>
+						<var>C1074</var>
+					</conj>
+					<var>C386</var>
+				</disj>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<var>C1734</var>
+					</not>
+					<not>
+						<var>A391</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<imp>
+							<var>C39</var>
+							<not>
+								<var>C1093</var>
+							</not>
+						</imp>
+					</not>
+					<not>
+						<var>C382</var>
+					</not>
+				</eq>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<not>
+							<var>C627</var>
+						</not>
+						<not>
+							<var>C398</var>
+						</not>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<not>
+							<disj>
+								<eq>
+									<not>
+										<var>C1177</var>
+									</not>
+									<var>A1007</var>
+								</eq>
+								<not>
+									<var>C1980</var>
+								</not>
+							</disj>
+						</not>
+						<not>
+							<var>C1136</var>
+						</not>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<conj>
+						<not>
+							<var>A1076</var>
+						</not>
+						<var>C1716</var>
+					</conj>
+				</not>
+			</rule>
+			<rule>
+				<not>
+					<eq>
+						<disj>
+							<not>
+								<var>C1048</var>
+							</not>
+							<var>C642</var>
+						</disj>
+						<var>C474</var>
+					</eq>
+				</not>
+			</rule>
+			<rule>
+				<eq>
+					<not>
+						<disj>
+							<var>C1128</var>
+							<var>C1280</var>
+						</disj>
+					</not>
+					<var>C629</var>
+				</eq>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<eq>
+							<conj>
+								<disj>
+									<var>C1357</var>
+									<not>
+										<var>C1395</var>
+									</not>
+								</disj>
+								<var>C729</var>
+							</conj>
+							<not>
+								<var>C1330</var>
+							</not>
+						</eq>
+					</not>
+					<not>
+						<var>C1373</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<disj>
+							<conj>
+								<var>C1414</var>
+								<var>A1213</var>
+							</conj>
+							<var>C1731</var>
+						</disj>
+					</not>
+					<not>
+						<var>C1982</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<disj>
+					<eq>
+						<var>C1185</var>
+						<not>
+							<var>C548</var>
+						</not>
+					</eq>
+					<var>C822</var>
+				</disj>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<eq>
+							<not>
+								<var>C1832</var>
+							</not>
+							<not>
+								<var>A1163</var>
+							</not>
+						</eq>
+					</not>
+					<not>
+						<var>C791</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<conj>
+					<disj>
+						<not>
+							<var>C1846</var>
+						</not>
+						<var>C999</var>
+					</disj>
+					<not>
+						<var>A196</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<not>
+							<conj>
+								<not>
+									<var>C220</var>
+								</not>
+								<var>C399</var>
+							</conj>
+						</not>
+						<var>A98</var>
+					</imp>
+					<var>C740</var>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<imp>
+						<var>C121</var>
+						<var>C674</var>
+					</imp>
+					<var>C694</var>
+				</disj>
+			</rule>
+			<rule>
+				<eq>
+					<disj>
+						<not>
+							<var>C1037</var>
+						</not>
+						<not>
+							<var>C1957</var>
+						</not>
+					</disj>
+					<eq>
+						<not>
+							<var>C1929</var>
+						</not>
+						<not>
+							<var>C835</var>
+						</not>
+					</eq>
+				</eq>
+			</rule>
+			<rule>
+				<imp>
+					<eq>
+						<conj>
+							<var>A43</var>
+							<conj>
+								<not>
+									<var>C935</var>
+								</not>
+								<var>C923</var>
+							</conj>
+						</conj>
+						<not>
+							<var>C65</var>
+						</not>
+					</eq>
+					<not>
+						<var>C860</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<var>C1886</var>
+					</not>
+					<var>C47</var>
+				</conj>
+			</rule>
+			<rule>
+				<disj>
+					<conj>
+						<not>
+							<conj>
+								<not>
+									<imp>
+										<var>C467</var>
+										<not>
+											<var>C716</var>
+										</not>
+									</imp>
+								</not>
+								<var>C1433</var>
+							</conj>
+						</not>
+						<var>C598</var>
+					</conj>
+					<var>A295</var>
+				</disj>
+			</rule>
+			<rule>
+				<disj>
+					<not>
+						<var>C1062</var>
+					</not>
+					<disj>
+						<var>C246</var>
+						<not>
+							<var>C816</var>
+						</not>
+					</disj>
+				</disj>
+			</rule>
+			<rule>
+				<conj>
+					<not>
+						<var>C1022</var>
+					</not>
+					<not>
+						<var>C250</var>
+					</not>
+				</conj>
+			</rule>
+			<rule>
+				<imp>
+					<disj>
+						<conj>
+							<disj>
+								<var>A212</var>
+								<not>
+									<var>C946</var>
+								</not>
+							</disj>
+							<var>C1783</var>
+						</conj>
+						<var>C848</var>
+					</disj>
+					<not>
+						<var>C933</var>
+					</not>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<not>
+						<eq>
+							<not>
+								<imp>
+									<not>
+										<eq>
+											<not>
+												<var>C1919</var>
+											</not>
+											<not>
+												<var>C181</var>
+											</not>
+										</eq>
+									</not>
+									<var>C663</var>
+								</imp>
+							</not>
+							<not>
+								<var>C733</var>
+							</not>
+						</eq>
+					</not>
+					<var>A299</var>
+				</imp>
+			</rule>
+		</constraints>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

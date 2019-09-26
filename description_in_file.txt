@@ -1,0 +1,19 @@
+Descrição do arquivo
+
+Primeira linha contém quantas caracteristicas e restrições booleanas
+N = num caracteristicas Q = restricoes booleanas
+
+As próximas N linhas do arquivo contém o tipo das características, ou seja, se são obrigatórias e se têm filhos em estado normal, estado opcional ou estado alternativo.
+nome_caracteristica_1 1 = mandatoria ou 0 = nao mandatoria  0 = nó normal, 1 = nó com filhos Or, 2 = nó com filhos Alternativos
+nome_caracteristica_2 0 ou 1 0 ou 1 ou 2
+.........
+nome_caracteristica_N 0 ou 1 0 ou 1 ou 2
+
+As próximas N-1 linhas do arquivo contém as arestas da árvore.
+#id_caracteristica_pai #id_caracteristica_filho
+
+As próximas Q linhas estão as restrições e são compostas como nos exemplos
+
+Ex1 id_caracteristica_x a - id_caracteristica_y i id_caracteristica_z e  Isso quer dizer Caracteristica_X  ¬ Caracteristica_Y - Caracteristica_Z  OBS Note que o sinal '-' significa NOT da característica. A letra 'a' significa o operador AND. A letra 'i' significa o operador de Implicação. A letra 'e' significa final da expressão.
+
+Ex2 id_caracteristica_x s id_caracteristica_y o id_caracteristica_z e  Isso quer dizer Caracteristica_X - Caracteristica_Y  Caracteristica_Z  OBS A letra 'o' significa o operador OR. A letra 's' significa o operador de Bi-implicacao. A letra 'e' significa final da expressão.

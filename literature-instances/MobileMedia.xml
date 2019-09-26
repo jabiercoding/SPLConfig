@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="0">
+		<struct>
+			<and abstract="true" coordinates="445, 43" mandatory="true" name="MobileMedia">
+				<or coordinates="258, 98" mandatory="true" name="MediaSelection">
+					<feature coordinates="235, 162" mandatory="true" name="Photo"/>
+					<feature coordinates="280, 162" mandatory="true" name="Music"/>
+					<feature coordinates="326, 162" mandatory="true" name="Video"/>
+				</or>
+				<and coordinates="430, 98" mandatory="true" name="MediaManagement">
+					<and coordinates="379, 162" name="Favourites">
+						<feature coordinates="308, 227" mandatory="true" name="SetFavourites"/>
+						<feature coordinates="393, 227" mandatory="true" name="ViewFavourites"/>
+					</and>
+					<feature coordinates="449, 161" name="CopyMedia"/>
+					<and coordinates="522, 161" name="SMSTransfer">
+						<feature coordinates="485, 227" name="ReceivePhoto"/>
+						<feature coordinates="570, 227" name="SendPhoto"/>
+					</and>
+				</and>
+				<alt coordinates="662, 98" mandatory="true" name="ScreenSize">
+					<feature coordinates="612, 162" mandatory="true" name="Screen1"/>
+					<feature coordinates="670, 162" mandatory="true" name="Screen2"/>
+					<feature coordinates="728, 162" mandatory="true" name="Screen3"/>
+				</alt>
+			</and>
+		</struct>
+		<constraints>
+			<rule coordinates="419, 252">
+				<imp>
+					<var>SMSTransfer</var>
+					<var>CopyMedia</var>
+				</imp>
+			</rule>
+		</constraints>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

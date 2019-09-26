@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="Smart_Home">
+				<and name="Environmental_Control">
+					<feature mandatory="true" name="Automatic_Windows"/>
+				</and>
+				<and name="Debug">
+					<feature name="Dump_Models"/>
+					<and name="Tracing">
+						<feature name="Window_Status_Printer"/>
+						<feature name="Thermometer_Status_Printer"/>
+					</and>
+					<feature name="Viewer"/>
+					<feature name="Reflective_Data_Structure"/>
+				</and>
+				<and name="Device_Extras">
+					<feature name="Dimmable_Lights"/>
+					<feature name="Outdoor_Temperature"/>
+				</and>
+				<and name="Security">
+					<or name="Burglar_Alarm">
+						<feature mandatory="true" name="Siren"/>
+						<feature mandatory="true" name="Bell"/>
+						<feature mandatory="true" name="Light"/>
+					</or>
+					<feature name="Authentication"/>
+					<feature name="Authorization"/>
+					<feature name="Light_Simulation"/>
+				</and>
+				<and name="Test">
+					<feature name="Deploy_Tests"/>
+					<feature name="Execute_Tests"/>
+				</and>
+				<alt mandatory="true" name="Deployment">
+					<feature mandatory="true" name="Per_Floor"/>
+					<feature mandatory="true" name="Per_Room"/>
+					<feature mandatory="true" name="Per_House"/>
+				</alt>
+			</and>
+		</struct>
+		<constraints>
+			<rule>
+				<imp>
+					<var>Viewer</var>
+					<var>Reflective_Data_Structure</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>Execute_Tests</var>
+					<var>Deploy_Tests</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>Authorization</var>
+					<var>Authentication</var>
+				</imp>
+			</rule>
+		</constraints>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

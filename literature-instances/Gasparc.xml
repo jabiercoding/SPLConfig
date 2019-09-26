@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="Gasparc">
+				<and abstract="true" mandatory="true" name="Hierarchy">
+					<feature mandatory="true" name="KeepHierarchy"/>
+				</and>
+				<and abstract="true" name="HardwareAccelerator">
+					<and abstract="true" mandatory="true" name="Type">
+						<and abstract="true" mandatory="true" name="GPU">
+							<feature mandatory="true" name="HybridCpuGpu"/>
+						</and>
+					</and>
+				</and>
+				<alt abstract="true" name="Synchronization">
+					<and abstract="true" mandatory="true" name="Buffer">
+						<feature mandatory="true" name="BlocByBloc"/>
+					</and>
+					<feature mandatory="true" name="None"/>
+					<feature mandatory="true" name="Barrier"/>
+				</alt>
+				<and abstract="true" name="Repetitior">
+					<feature mandatory="true" name="Develop"/>
+				</and>
+				<and abstract="true" mandatory="true" name="Scheduling">
+					<alt abstract="true" mandatory="true" name="StaticScheduling">
+						<and abstract="true" mandatory="true" name="Graph">
+							<feature mandatory="true" name="Simple"/>
+						</and>
+						<feature mandatory="true" name="Polyhedro"/>
+					</alt>
+				</and>
+				<and abstract="true" mandatory="true" name="MappingMgm">
+					<and abstract="true" mandatory="true" name="Task">
+						<feature mandatory="true" name="Explicit"/>
+					</and>
+					<and abstract="true" mandatory="true" name="Data">
+						<feature mandatory="true" name="AbsoluteComputation"/>
+					</and>
+					<feature mandatory="true" name="Tiler"/>
+				</and>
+				<feature mandatory="true" name="MemoryType"/>
+				<or abstract="true" mandatory="true" name="Objective">
+					<alt abstract="true" mandatory="true" name="ScientificComputation">
+						<feature mandatory="true" name="OpenCL"/>
+						<feature mandatory="true" name="OpenMF"/>
+					</alt>
+					<and abstract="true" mandatory="true" name="Simulation">
+						<alt abstract="true" mandatory="true" name="AbstractionLevel">
+							<and abstract="true" mandatory="true" name="SystemC">
+								<feature mandatory="true" name="BindingAppliArch"/>
+								<feature mandatory="true" name="DataExchange"/>
+								<feature mandatory="true" name="Architecture"/>
+							</and>
+							<feature mandatory="true" name="pThread"/>
+							<feature mandatory="true" name="Functiona"/>
+						</alt>
+					</and>
+				</or>
+			</and>
+		</struct>
+		<constraints/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

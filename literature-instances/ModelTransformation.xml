@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="ModelTransformation">
+				<and mandatory="true" name="TransformationRules">
+					<or mandatory="true" name="LHS_RHS">
+						<alt mandatory="true" name="Variables">
+							<feature mandatory="true" name="Untyped"/>
+							<feature mandatory="true" name="SyntacticallyTyped"/>
+							<feature mandatory="true" name="SemanticallyTyped"/>
+						</alt>
+						<and mandatory="true" name="Patterns">
+							<alt mandatory="true" name="Form">
+								<feature mandatory="true" name="Strings"/>
+								<feature mandatory="true" name="Terms"/>
+								<feature mandatory="true" name="Graphs"/>
+							</alt>
+							<or mandatory="true" name="Syntax">
+								<feature mandatory="true" name="Abstract"/>
+								<or mandatory="true" name="Concrete">
+									<feature mandatory="true" name="Textual"/>
+									<feature mandatory="true" name="Graphical"/>
+								</or>
+							</or>
+							<alt mandatory="true" name="Typing">
+								<feature mandatory="true" name="Untyped_2"/>
+								<feature mandatory="true" name="SyntacticallyTyped_2"/>
+								<feature mandatory="true" name="SemanticallyTyped_2"/>
+							</alt>
+						</and>
+						<or mandatory="true" name="Logic">
+							<feature mandatory="true" name="Non_Executable"/>
+							<or mandatory="true" name="Executable">
+								<feature mandatory="true" name="Imperative"/>
+								<feature mandatory="true" name="Declarative"/>
+							</or>
+						</or>
+					</or>
+					<feature name="LHS_RHS_SyntaticSeparation"/>
+					<feature name="Bidirectionality"/>
+					<feature name="Parameterization"/>
+					<feature name="IntermediateStructures"/>
+				</and>
+				<or name="RuleApplicationScoping">
+					<feature mandatory="true" name="Source"/>
+					<feature mandatory="true" name="Target"/>
+				</or>
+				<or mandatory="true" name="Source_TargetRelationship">
+					<feature mandatory="true" name="NewTarget"/>
+					<and mandatory="true" name="ExistingTarget">
+						<feature name="InPlace_InSource"/>
+						<alt mandatory="true" name="Update">
+							<feature mandatory="true" name="Destructive"/>
+							<feature mandatory="true" name="ExtensionOnly"/>
+						</alt>
+					</and>
+				</or>
+				<or mandatory="true" name="RuleApplicationStrategy">
+					<feature mandatory="true" name="Deterministic"/>
+					<or mandatory="true" name="Non_Deterministic">
+						<feature mandatory="true" name="Concurrent"/>
+						<feature mandatory="true" name="One_Point"/>
+					</or>
+					<feature mandatory="true" name="Interactive"/>
+				</or>
+				<and mandatory="true" name="RuleScheduling">
+					<or mandatory="true" name="Form_2">
+						<feature mandatory="true" name="Implicit"/>
+						<alt mandatory="true" name="Explicit">
+							<feature mandatory="true" name="Internal"/>
+							<feature mandatory="true" name="External"/>
+						</alt>
+					</or>
+					<or mandatory="true" name="RuleSelection">
+						<feature mandatory="true" name="ExplicitCondition"/>
+						<feature mandatory="true" name="Non_Determinism"/>
+						<feature mandatory="true" name="ConflictResolution"/>
+						<feature mandatory="true" name="Interactive_2"/>
+					</or>
+					<alt name="RuleIteration">
+						<feature mandatory="true" name="Recursion"/>
+						<feature mandatory="true" name="Looping"/>
+						<feature mandatory="true" name="FixpointIteration"/>
+					</alt>
+					<feature name="Phasing"/>
+				</and>
+				<and mandatory="true" name="RuleOrganization">
+					<feature name="ModularityMechanisms"/>
+					<or name="ReuseMechanisms">
+						<feature mandatory="true" name="Inheritance"/>
+						<feature mandatory="true" name="LogicalComposition"/>
+					</or>
+					<alt mandatory="true" name="OrganizationalStructure">
+						<feature mandatory="true" name="Souce_Oriented"/>
+						<feature mandatory="true" name="Target_Oriented"/>
+						<feature mandatory="true" name="Independent"/>
+					</alt>
+				</and>
+				<and mandatory="true" name="Tracing">
+					<and name="DedicatedSupport">
+						<alt mandatory="true" name="StorageLocation">
+							<or mandatory="true" name="Model">
+								<feature mandatory="true" name="Source_2"/>
+								<feature mandatory="true" name="Target_2"/>
+							</or>
+							<feature mandatory="true" name="Separate"/>
+						</alt>
+						<alt mandatory="true" name="Control">
+							<feature mandatory="true" name="Manual"/>
+							<alt mandatory="true" name="Automatic">
+								<feature mandatory="true" name="AllRules"/>
+								<feature mandatory="true" name="SelectedRules"/>
+							</alt>
+						</alt>
+					</and>
+				</and>
+				<or mandatory="true" name="Directionality">
+					<feature mandatory="true" name="Unidirectional"/>
+					<alt mandatory="true" name="Bidirectional">
+						<feature mandatory="true" name="BidirectionalRules"/>
+						<feature mandatory="true" name="ComplementaryPairs"/>
+					</alt>
+				</or>
+			</and>
+		</struct>
+		<constraints/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

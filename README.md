@@ -13,7 +13,7 @@ SPLConfig implements a Greedy heuristic and a Backtracking algorithm. As input f
 - .cli-file with the budget limit and the benefit of each feature in a scale from 0 (none) to 5 (very high)
 - company.txt file with the price of each feature
 
-## Feature Models
+## Variability models
 We used two sets of feature models in our experiments: 10 state-of-the-art feature models and 12 randomly generated feature models. In this repository, you can download the .xml, .cli, and the company.txt files for these feature models.
 
 - 10 state-of-the-art feature models (see data into the path literature-instances):
@@ -35,13 +35,11 @@ We used two sets of feature models in our experiments: 10 state-of-the-art featu
 Apart from FeatureIDE that implements the Greedy heuristic, we used the Backtracking algorithm (see solver_unlimited_features.cpp). As input to this algorithm, we use a .in-file generated from a Python script (see parser.py). The .in-file is simple another representation of the variability model.
 
 - How to use?
-to convert the .xml to .in
-> python parser.py model.xml > teste.in
-to run the backtracking algorithm
-> g++ -O2 solver_ulimited_features.cpp -o solver
-> ./solver -i teste.in -m company.txt -c teste.cli -o teste.out -t ?
-where ? is the time the backtracking will run in seconds. The flag -t is optional.
-In the end, you can find the results in teste.out.
 
-
-
+  - to convert the .xml to .in
+  > python parser.py model.xml > teste.in
+  - to run the backtracking algorithm
+  > g++ -O2 solver_ulimited_features.cpp -o solver
+  > ./solver -i teste.in -m company.txt -c teste.cli -o teste.out -t ?
+  where ? is the time the backtracking will run in seconds. The flag -t is optional.
+  - In the end, you can find the results in teste.out.

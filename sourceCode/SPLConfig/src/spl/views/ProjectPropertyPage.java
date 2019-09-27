@@ -63,7 +63,7 @@ public class ProjectPropertyPage extends PropertyPage {
 			try{
 				faf.Initialize();
 				company = SPLConfig.getFile("company.txt");
-				fm.setFeatures(xml.Read(project));
+				fm.setFeatures(xml.read(project));
 				fm.setFeatures(prop.getFeatureCosts(fm.getFeatures(), company));
 			} catch (CoreException e) {
 				e.printStackTrace();

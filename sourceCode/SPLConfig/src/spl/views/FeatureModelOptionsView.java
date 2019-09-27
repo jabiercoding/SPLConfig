@@ -132,7 +132,7 @@ public class FeatureModelOptionsView extends ViewPart {
 				
 				XML xml = new XML();
 				try {
-					fm.setFeatures(xml.Read(project));
+					fm.setFeatures(xml.read(project));
 				} catch (CoreException e) {
 					e.printStackTrace();
 				}

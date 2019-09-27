@@ -57,11 +57,6 @@ public class Feature {
 		return benefit;
 	}
 
-	public double getBenefitAlg() {
-		double aux = benefit * 0.2;
-		return aux;
-	}
-
 	public void setBenefit(double benefit) {
 		this.benefit = benefit;
 	}

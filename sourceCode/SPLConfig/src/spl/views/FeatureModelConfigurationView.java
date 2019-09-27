@@ -47,7 +47,7 @@ public class FeatureModelConfigurationView extends ViewPart {
 	private IProject project;
 	private IFolder configsFolder;
 	private IFile benefits;
-	//private IFile budgetFile;
+	
 	private LinkedList<String> configsList;
 	
 	private SPLConfigProperties prop = new SPLConfigProperties();

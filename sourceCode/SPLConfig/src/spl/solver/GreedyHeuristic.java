@@ -20,6 +20,12 @@ public class GreedyHeuristic {
 	
 	public GreedyHeuristic(FM fm, String budgetText){
 		
+//		System.out.println("BEFORE ");
+//		System.out.println("Budget: " + budgetText);
+//		for(Feature f : fm.getFeatures()) {
+//			System.out.println(f.getName() + " Cost: " + f.getCost() + " Benefit: " + f.getBenefit());
+//		}
+		
 		start_time = System.currentTimeMillis();
 		
 		boolean solution = true;
@@ -29,8 +35,16 @@ public class GreedyHeuristic {
 		//printRoot();
 		//printFeatureList();
 		
+//		System.out.println("\n\nAFTER ");
+//		
+//		System.out.println("Budget: " + budgetText);
+//		for(Feature f : fm.getFeatures()) {
+//			System.out.println(f.getName() + " Cost: " + f.getCost() + " Benefit: " + f.getBenefit());
+//		}
+
+		
 		do{
-			merge ();
+			merge();
 			
 			//set cost minimum
 			for (int i=featureList.size()-1; i>=0; i--){
@@ -56,7 +70,7 @@ public class GreedyHeuristic {
 	            
 	        }else{
 	        	solution = false;
-	            //System.out.println("Nao ha orcamento disponivel!");
+	            //System.out.println("No budget available!");
 	            root.clear();
 	            break;
 	        }
@@ -67,7 +81,7 @@ public class GreedyHeuristic {
 	        //features selected
 			startFeatureModel(false, fm, budgetText);
 			//printFeatureList();
-	        FindDependents();
+	        findDependents();
 	        //printRoot();
 	        outputFile(start_time);
 	    }
@@ -96,15 +110,15 @@ public class GreedyHeuristic {
 				if (f.getBenefit() == 0 && !f.isMandatory())
 					f.setCost(budget+1);
 			
-			criateListAux();
+			createListAux();
 		}else{
 			featureList = featureListAux;
 		}
 	}
 	
-	public static void criateListAux(){
+	public static void createListAux(){
 		
-		java.util.LinkedList<String> g = new java.util.LinkedList<String>();
+		LinkedList<String> g = new LinkedList<String>();
 		
 		//featureListAux = featureList;
 		for (int i=0; i<featureList.size(); i++){
@@ -252,10 +266,10 @@ public class GreedyHeuristic {
 					//delete listdelete and create a new
 					if (i1 == (listdelete.size()-1)){
 						LinkedList<String> children = new LinkedList<String>();
-						children = filhos(listdelete);
+						children = children(listdelete);
 						listdelete.clear();
 						listdelete = children;
-						//System.out.println("LISTA DELETE: \t" + listdelete);
+						//System.out.println("LIST DELETE: \t" + listdelete);
 						//if listdelete does not empty
 						if (!listdelete.isEmpty()){   
 						   i1 = -1;   
@@ -271,7 +285,7 @@ public class GreedyHeuristic {
 		}
 	} 
 
-	public static LinkedList<String> filhos(LinkedList<String> listdelete){
+	public static LinkedList<String> children(LinkedList<String> listdelete){
 
 		//children.clear();
 		LinkedList<String> auxChildren = new LinkedList<String>();
@@ -355,8 +369,7 @@ public class GreedyHeuristic {
 	    }
 	}
 	
-	public static void FindDependents(){
-	    
+	public static void findDependents(){    
 		for (int iR=0; iR<root.size(); iR++){
 	    	for (int i1=0; i1<featureList.size(); i1++){
 	    		if (((featureList.get(i1).getName()).equals(root.get(iR)))){

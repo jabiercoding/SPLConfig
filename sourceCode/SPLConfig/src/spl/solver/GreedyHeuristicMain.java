@@ -86,7 +86,6 @@ public class GreedyHeuristicMain {
 			}
 			
 			GreedyHeuristic greedyHeuristic = new GreedyHeuristic(fm, costBudget.toString());
-			greedyHeuristic.getResult();
 			System.out.println(greedyHeuristic.getStringResult());
 
 		} catch (Exception e) {

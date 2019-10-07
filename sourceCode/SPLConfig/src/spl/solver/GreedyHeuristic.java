@@ -232,12 +232,6 @@ public class GreedyHeuristic {
 				for(int i1=0; i1<listdelete.size(); i1++){
 					for(int i2=0; i2<featureList.size(); i2++){ 
 						
-						/*if (!listdelete.isEmpty()){
-							if (listdelete.get(0).equals("C106")){
-								System.out.println("DELETE: " + listdelete.get(i1));
-							}
-						}*/
-						
 						if ((featureList.get(i2).getName()).equals(listdelete.get(i1))){
 							
 							int a = featureList.get(i2).getAlt();
@@ -270,7 +264,7 @@ public class GreedyHeuristic {
 						listdelete.clear();
 						listdelete = children;
 						//System.out.println("LIST DELETE: \t" + listdelete);
-						//if listdelete does not empty
+						//if listdelete is not empty
 						if (!listdelete.isEmpty()){   
 						   i1 = -1;   
 						}else{
@@ -384,20 +378,6 @@ public class GreedyHeuristic {
 	}
 	
 	public static void outputFile(long start_time){
-    
-		/*FileWriter arquivo;  
-        try {  
-            arquivo = new FileWriter(new File("C:\\programs\\runtime-EclipseApplication\\" + clientext.getText() + "\\SPLConfig\\configs\\result.txt"));  
-            arquivo.write("Time: " + (System.currentTimeMillis() - start_time) + "\n"); 
-            arquivo.write("Cost: " + c_root + "\n"); 
-            arquivo.write("Benefit: " + b_root + "\n"); 
-            arquivo.close(); 
-        } catch (IOException e) {  
-            e.printStackTrace();  
-        } catch (Exception e) {  
-            e.printStackTrace();  
-        } */
-        
         System.out.println("Selected features: "); 
         System.out.println("\t" + root);
    	}
@@ -444,8 +424,6 @@ public class GreedyHeuristic {
 	
 	public double getBenefit(){
 		double aux = c_root;
-		/*double aux = b_root / root.size();
-		aux *= 20;*/
 		return aux;
 	}
 }
